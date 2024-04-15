@@ -749,6 +749,70 @@ input[type="checkbox"] {
 }
 /* end of hover animation */
 
+/********************/
+/*    Customize     */
+/********************/
+
+.customize-img {
+  background-image: "images/saddles/Loire-Black.png";
+  width: 100%;
+  height: auto;
+}
+
+.dot-cognac {
+  background-color: #61302b;
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  z-index: 30;
+}
+
+.dot-tabacco {
+  background-color: #915249;
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  z-index: 30;
+}
+
+.dot-oak {
+  background-color: #592d22;
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  z-index: 30;
+}
+
+.dot-black {
+  background-color: black;
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  z-index: 30;
+}
+
+.dot-chocolate {
+  background-color: #56454d;
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  z-index: 30;
+}
+
+.dot-overlay {
+  border-radius: 50%;
+  background-color: transparent;
+  width: 35px;
+  height: 35px;
+  position: absolute;
+  transform: translate(1%, -48%);
+  box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.5),
+    0 0 20px 10px rgba(255, 255, 255, 0.3),
+    0 0 30px 15px rgba(255, 255, 255, 0.1);
+  opacity: 1;
+  transition: opacity 0.3s ease;
+}
+
 /*****************/
 /*     Works     */
 /*****************/
