@@ -128,7 +128,12 @@
           <div class="col-lg-5">
             <img
               src="images/saddles/Loire-Black.png"
-              class="customize-img"
+              class="customize-leather"
+              alt="..."
+            />
+            <img
+              src="images/saddles/Loire/Stitching/Loire-Stitch-Black.png"
+              class="customize-stitch"
               alt="..."
             />
           </div>
@@ -143,104 +148,244 @@
               foam panels.
             </p>
             <div>
-              <h6 class="h4 text-gold">Choose you color</h6>
-              <h6 class="h5 text-white">Leather Color</h6>
-              <div class="d-flex justify-content-around mt-4">
-                <div
-                  class="radio-option selected"
-                  onclick="selectOption('black')"
-                >
+              <h6 class="h4 text-gold mt-5">Choose you colour</h6>
+              <!-- LEATHER COLOUR -->
+              <div class="mt-3">
+                <h6 class="h5 text-white">Leather Colour</h6>
+                <div class="d-flex justify-content-around mt-4">
                   <div
-                    style="
-                      display: flex;
-                      flex-direction: column;
-                      justify-content: center;
-                      align-items: center;
-                    "
+                    class="radio-leather selected"
+                    onclick="selectLeather('black')"
                   >
-                    <div class="dot-black"></div>
-                    <div class="dot-overlay"></div>
-                    <label
-                      class="form-check-label text-white mt-2"
-                      for="inlineRadio1"
-                      >Black</label
+                    <div
+                      style="
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                      "
                     >
+                      <div class="dot-black"></div>
+                      <div
+                        class="dot-overlay-leather"
+                        style="display: block"
+                      ></div>
+                      <label
+                        class="form-check-label text-white mt-2"
+                        for="inlineRadio1"
+                        >Black</label
+                      >
+                    </div>
+                  </div>
+
+                  <div
+                    class="radio-leather"
+                    onclick="selectLeather('chocolate')"
+                  >
+                    <div
+                      style="
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                      "
+                    >
+                      <div class="dot-chocolate"></div>
+                      <div
+                        class="dot-overlay-leather"
+                        style="display: none"
+                      ></div>
+                      <label
+                        class="form-check-label text-white mt-2"
+                        for="inlineRadio1"
+                        >Chocolate</label
+                      >
+                    </div>
+                  </div>
+
+                  <div class="radio-leather" onclick="selectLeather('oak')">
+                    <div
+                      style="
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                      "
+                    >
+                      <div class="dot-oak"></div>
+                      <div
+                        class="dot-overlay-leather"
+                        style="display: none"
+                      ></div>
+                      <label
+                        class="form-check-label text-white mt-2"
+                        for="inlineRadio1"
+                        >Oak</label
+                      >
+                    </div>
+                  </div>
+
+                  <div class="radio-leather" onclick="selectLeather('tabacco')">
+                    <div
+                      style="
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                      "
+                    >
+                      <div class="dot-tabacco"></div>
+                      <div
+                        class="dot-overlay-leather"
+                        style="display: none"
+                      ></div>
+                      <label
+                        class="form-check-label text-white mt-2"
+                        for="inlineRadio1"
+                        >Tabacco</label
+                      >
+                    </div>
+                  </div>
+
+                  <div class="radio-leather" onclick="selectLeather('cognac')">
+                    <div
+                      style="
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                      "
+                    >
+                      <div class="dot-cognac"></div>
+                      <div
+                        class="dot-overlay-leather"
+                        style="display: none"
+                      ></div>
+                      <label
+                        class="form-check-label text-white mt-2"
+                        for="inlineRadio1"
+                        >Cognac</label
+                      >
+                    </div>
                   </div>
                 </div>
+              </div>
 
-                <div class="radio-option" onclick="selectOption('chocolate')">
+              <!-- STITCH COLOUR -->
+              <div class="mt-5">
+                <h6 class="h5 text-white">Stitching Colour</h6>
+                <div class="d-flex justify-content-around mt-4">
                   <div
-                    style="
-                      display: flex;
-                      flex-direction: column;
-                      justify-content: center;
-                      align-items: center;
-                    "
+                    class="radio-stitch selected"
+                    onclick="selectStitch('black')"
                   >
-                    <div class="dot-chocolate"></div>
-                    <div class="dot-overlay" style="display: none"></div>
-                    <label
-                      class="form-check-label text-white mt-2"
-                      for="inlineRadio1"
-                      >Chocolate</label
+                    <div
+                      style="
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                      "
                     >
+                      <div class="dot-black"></div>
+                      <div
+                        class="dot-overlay-stitch"
+                        style="display: block"
+                      ></div>
+                      <label
+                        class="form-check-label text-white mt-2"
+                        for="inlineRadio1"
+                        >Black</label
+                      >
+                    </div>
                   </div>
-                </div>
 
-                <div class="radio-option" onclick="selectOption('oak')">
-                  <div
-                    style="
-                      display: flex;
-                      flex-direction: column;
-                      justify-content: center;
-                      align-items: center;
-                    "
-                  >
-                    <div class="dot-oak"></div>
-                    <div class="dot-overlay" style="display: none"></div>
-                    <label
-                      class="form-check-label text-white mt-2"
-                      for="inlineRadio1"
-                      >Oak</label
+                  <div class="radio-stitch" onclick="selectStitch('chocolate')">
+                    <div
+                      style="
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                      "
                     >
+                      <div class="dot-chocolate"></div>
+                      <div
+                        class="dot-overlay-stitch"
+                        style="display: none"
+                      ></div>
+                      <label
+                        class="form-check-label text-white mt-2"
+                        for="inlineRadio1"
+                        >Chocolate</label
+                      >
+                    </div>
                   </div>
-                </div>
 
-                <div class="radio-option" onclick="selectOption('tabacco')">
-                  <div
-                    style="
-                      display: flex;
-                      flex-direction: column;
-                      justify-content: center;
-                      align-items: center;
-                    "
-                  >
-                    <div class="dot-tabacco"></div>
-                    <div class="dot-overlay" style="display: none"></div>
-                    <label
-                      class="form-check-label text-white mt-2"
-                      for="inlineRadio1"
-                      >Tabacco</label
+                  <div class="radio-stitch" onclick="selectStitch('oak')">
+                    <div
+                      style="
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                      "
                     >
+                      <div class="dot-oak"></div>
+                      <div
+                        class="dot-overlay-stitch"
+                        style="display: none"
+                      ></div>
+                      <label
+                        class="form-check-label text-white mt-2"
+                        for="inlineRadio1"
+                        >Oak</label
+                      >
+                    </div>
                   </div>
-                </div>
 
-                <div class="radio-option" onclick="selectOption('cognac')">
-                  <div
-                    style="
-                      display: flex;
-                      flex-direction: column;
-                      justify-content: center;
-                      align-items: center;
-                    "
-                  >
-                    <div class="dot-cognac"></div>
-                    <div class="dot-overlay" style="display: none"></div>
-                    <label
-                      class="form-check-label text-white mt-2"
-                      for="inlineRadio1"
-                      >Cognac</label
+                  <div class="radio-stitch" onclick="selectStitch('tabacco')">
+                    <div
+                      style="
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                      "
                     >
+                      <div class="dot-tabacco"></div>
+                      <div
+                        class="dot-overlay-stitch"
+                        style="display: none"
+                      ></div>
+                      <label
+                        class="form-check-label text-white mt-2"
+                        for="inlineRadio1"
+                        >Tabacco</label
+                      >
+                    </div>
+                  </div>
+
+                  <div class="radio-stitch" onclick="selectStitch('cognac')">
+                    <div
+                      style="
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                      "
+                    >
+                      <div class="dot-cognac"></div>
+                      <div
+                        class="dot-overlay-stitch"
+                        style="display: none"
+                      ></div>
+                      <label
+                        class="form-check-label text-white mt-2"
+                        for="inlineRadio1"
+                        >Cognac</label
+                      >
+                    </div>
                   </div>
                 </div>
               </div>
@@ -340,6 +485,7 @@
     <!-- jQuery Easing for smooth scrolling between anchors -->
     <script src="js/scripts.js"></script>
     <!-- Custom scripts -->
-    <script src="js/customize.js"></script>
+    <script src="js/customize/customize-leather.js"></script>
+    <script src="js/customize/customize-stitch.js"></script>
   </body>
 </html>

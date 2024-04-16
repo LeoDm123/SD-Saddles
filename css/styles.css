@@ -750,13 +750,21 @@ input[type="checkbox"] {
 /* end of hover animation */
 
 /********************/
-/*    Customize     */
+/*    Customize LOIRE    */
 /********************/
 
-.customize-img {
+.customize-leather {
   background-image: "images/saddles/Loire-Black.png";
   width: 100%;
-  height: auto;
+  height: 100%;
+}
+
+.customize-stitch {
+  background-image: "images/saddles/Loire/Stitching/Loire-Stitch-Black.png";
+  width: 95%;
+  height: 100%;
+  position: absolute;
+  transform: translate(-100%, 0%);
 }
 
 .dot-cognac {
@@ -799,7 +807,21 @@ input[type="checkbox"] {
   z-index: 30;
 }
 
-.dot-overlay {
+.dot-overlay-leather {
+  border-radius: 50%;
+  background-color: transparent;
+  width: 35px;
+  height: 35px;
+  position: absolute;
+  transform: translate(1%, -48%);
+  box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.5),
+    0 0 20px 10px rgba(255, 255, 255, 0.3),
+    0 0 30px 15px rgba(255, 255, 255, 0.1);
+  opacity: 1;
+  transition: opacity 0.3s ease;
+}
+
+.dot-overlay-stitch {
   border-radius: 50%;
   background-color: transparent;
   width: 35px;

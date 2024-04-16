@@ -1,5 +1,5 @@
-function selectOption(color) {
-  var img = document.querySelector(".customize-img");
+function selectLeather(color) {
+  var img = document.querySelector(".customize-leather");
   var newSrc = "";
 
   switch (color) {
@@ -24,19 +24,19 @@ function selectOption(color) {
 
   img.src = newSrc;
 
-  // Remove selected class from all options
-  const options = document.querySelectorAll(".radio-option");
+  const options = document.querySelectorAll(".radio-leather");
   options.forEach((option) => {
     option.classList.remove("selected");
-    const dotOverlay = option.querySelector(".dot-overlay");
+    const dotOverlay = option.querySelector(".dot-overlay-leather");
     dotOverlay.style.display = "none";
   });
 
-  // Add selected class to the clicked option
-  const selectedOption = document.querySelector(`[onclick*="${color}"]`);
+  const selectedOption = document.querySelector(
+    `.radio-leather[onclick*="${color}"]`
+  );
   selectedOption.classList.add("selected");
 
-  // Show dot-overlay for the selected option
-  const dotOverlay = selectedOption.querySelector(".dot-overlay");
+  const dotOverlay = selectedOption.querySelector(".dot-overlay-leather");
   dotOverlay.style.display = "block";
+  console.log(dotOverlay);
 }
