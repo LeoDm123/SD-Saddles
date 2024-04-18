@@ -4,19 +4,19 @@ function selectLeather(color) {
 
   switch (color) {
     case "black":
-      newSrc = "images/saddles/Loire/Loire-Black.png";
+      newSrc = "images/saddles/Loire/Loire-Leather-Black.png";
       break;
     case "chocolate":
-      newSrc = "images/saddles/Loire/Loire-Chocolate.png";
+      newSrc = "images/saddles/Loire/Loire-Leather-Chocolate.png";
       break;
     case "oak":
-      newSrc = "images/saddles/Loire/Loire-Oak.png";
+      newSrc = "images/saddles/Loire/Loire-Leather-Oak.png";
       break;
     case "tabacco":
-      newSrc = "images/saddles/Loire/Loire-Tabacco.png";
+      newSrc = "images/saddles/Loire/Loire-Leather-Tabacco.png";
       break;
     case "cognac":
-      newSrc = "images/saddles/Loire/Loire-Cognac.png";
+      newSrc = "images/saddles/Loire/Loire-Leather-Cognac.png";
       break;
     default:
       break;
