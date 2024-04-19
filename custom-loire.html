@@ -83,15 +83,15 @@
         >
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link page-scroll" href="#header"
+              <a class="nav-link page-scroll" href="/index.html"
                 >Home <span class="sr-only">(current)</span></a
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link page-scroll" href="#about">About</a>
+              <a class="nav-link page-scroll" href="/about.html">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link page-scroll" href="#services">Products</a>
+              <a class="nav-link page-scroll" href="/products.html">Products</a>
             </li>
 
             <li class="nav-item">
@@ -128,7 +128,7 @@
           <div class="col-lg-7" id="fixedDiv">
             <img
               src="images/saddles/Loire-Black.png"
-              class="customize-leather"
+              class="customize-leather img-bright"
               alt="..."
             />
             <img
@@ -157,7 +157,7 @@
               alt="..."
             />
           </div>
-          <div class="col-lg-5" id="scrollableDiv">
+          <div class="col-lg-5 mt-5" id="scrollableDiv">
             <h6 class="h3 text-gold">Loire</h6>
             <p class="text-white">
               This french styled close contact saddle is built for daily riding
@@ -167,6 +167,105 @@
               is available with both wool flocked panels, as well as injected
               foam panels.
             </p>
+            <div>
+              <div class="selector-container">
+                <select
+                  class="form-select selector"
+                  aria-label="Default select example"
+                  id="size"
+                >
+                  <option selected>SIZE</option>
+                  <option value="17">17</option>
+                  <option value="17.5">17.5</option>
+                  <option value="18">18</option>
+                </select>
+                <select
+                  class="form-select selector"
+                  aria-label="Default select example"
+                  id="width"
+                >
+                  <option selected>WIDTH</option>
+                  <option value="NARROW">NARROW</option>
+                  <option value="MEDIUM">MEDIUM</option>
+                  <option value="WIDE">WIDE</option>
+                  <option value="X WIDE">X WIDE</option>
+                </select>
+              </div>
+
+              <div class="selector-container">
+                <select
+                  class="form-select selector"
+                  aria-label="Default select example"
+                  id="flaps"
+                >
+                  <option selected>FLAPS</option>
+                  <option value="REGULAR DOUBLE FLAP">
+                    REGULAR DOUBLE FLAP
+                  </option>
+                  <option value="LONG DOUBLE FLAP">LONG DOUBLE FLAP</option>
+                  <option value="ADVANCED DOUBLE FLAP">
+                    ADVANCED DOUBLE FLAP
+                  </option>
+                </select>
+                <select
+                  class="form-select selector"
+                  aria-label="Default select example"
+                  id="blockFront"
+                >
+                  <option selected>BLOCK FRONT</option>
+                  <option value="STANDARD">STANDARD</option>
+                  <option value="2">STANDARD WITH VELCRO</option>
+                </select>
+              </div>
+
+              <div class="selector-container">
+                <select
+                  class="form-select selector"
+                  aria-label="Default select example"
+                  id="gulletSystem"
+                >
+                  <option selected>UNIVERSAL GULLET SYSTEM</option>
+                  <option value="WITH">WITH</option>
+                  <option value="WITHOUT">WITHOUT</option>
+                </select>
+                <select
+                  class="form-select selector"
+                  aria-label="Default select example"
+                  id="panels"
+                >
+                  <option selected>PANELS</option>
+                  <option value="FOAM">FOAM</option>
+                  <option value="WHOOL">WHOOL</option>
+                  <option value="WHOOL HIGH BACK">WHOOL HIGH BACK</option>
+                </select>
+              </div>
+
+              <div class="selector-container">
+                <select
+                  class="form-select selector"
+                  aria-label="Default select example"
+                  id="leatherType"
+                >
+                  <option selected>TYPE OF LEATHER</option>
+                  <option value="SINGLE PRE-OILED PRINTED">
+                    SINGLE PRE-OILED PRINTED
+                  </option>
+                  <option value="SINGLE PRE-OILED SMOOTH">
+                    SINGLE PRE-OILED SMOOTH
+                  </option>
+                  <option value="SOFT COVERED">SOFT COVERED</option>
+                </select>
+                <select
+                  class="form-select selector"
+                  aria-label="Default select example"
+                  id="blockBack"
+                >
+                  <option selected>BLOCK BACK</option>
+                  <option value="STANDARD">STANDARD</option>
+                  <option value="2">STANDARD WITH VELCRO</option>
+                </select>
+              </div>
+            </div>
             <!-- COLOR SECTION -->
             <div class="divider-title">
               <h6 class="h4 text-gold mt-5">Choose you colour</h6>
@@ -179,6 +278,7 @@
                   <div
                     class="radio-leather selected"
                     onclick="selectLeather('black')"
+                    data-color="black"
                   >
                     <div
                       style="
@@ -204,6 +304,7 @@
                   <div
                     class="radio-leather"
                     onclick="selectLeather('chocolate')"
+                    data-color="chocolate"
                   >
                     <div
                       style="
@@ -226,7 +327,11 @@
                     </div>
                   </div>
 
-                  <div class="radio-leather" onclick="selectLeather('oak')">
+                  <div
+                    class="radio-leather"
+                    onclick="selectLeather('oak')"
+                    data-color="oak"
+                  >
                     <div
                       style="
                         display: flex;
@@ -248,7 +353,11 @@
                     </div>
                   </div>
 
-                  <div class="radio-leather" onclick="selectLeather('tabacco')">
+                  <div
+                    class="radio-leather"
+                    onclick="selectLeather('tabacco')"
+                    data-color="tabacco"
+                  >
                     <div
                       style="
                         display: flex;
@@ -270,7 +379,11 @@
                     </div>
                   </div>
 
-                  <div class="radio-leather" onclick="selectLeather('cognac')">
+                  <div
+                    class="radio-leather"
+                    onclick="selectLeather('cognac')"
+                    data-color="cognac"
+                  >
                     <div
                       style="
                         display: flex;
@@ -302,6 +415,7 @@
                   <div
                     class="radio-stitch selected"
                     onclick="selectStitch('black')"
+                    data-color="black"
                   >
                     <div
                       style="
@@ -324,7 +438,11 @@
                     </div>
                   </div>
 
-                  <div class="radio-stitch" onclick="selectStitch('chocolate')">
+                  <div
+                    class="radio-stitch"
+                    onclick="selectStitch('chocolate')"
+                    data-color="chocolate"
+                  >
                     <div
                       style="
                         display: flex;
@@ -346,7 +464,11 @@
                     </div>
                   </div>
 
-                  <div class="radio-stitch" onclick="selectStitch('oak')">
+                  <div
+                    class="radio-stitch"
+                    onclick="selectStitch('oak')"
+                    data-color="oak"
+                  >
                     <div
                       style="
                         display: flex;
@@ -368,7 +490,11 @@
                     </div>
                   </div>
 
-                  <div class="radio-stitch" onclick="selectStitch('tabacco')">
+                  <div
+                    class="radio-stitch"
+                    onclick="selectStitch('tabacco')"
+                    data-color="tabacco"
+                  >
                     <div
                       style="
                         display: flex;
@@ -390,7 +516,11 @@
                     </div>
                   </div>
 
-                  <div class="radio-stitch" onclick="selectStitch('cognac')">
+                  <div
+                    class="radio-stitch"
+                    onclick="selectStitch('cognac')"
+                    data-color="cognac"
+                  >
                     <div
                       style="
                         display: flex;
@@ -412,7 +542,11 @@
                     </div>
                   </div>
 
-                  <div class="radio-stitch" onclick="selectStitch('white')">
+                  <div
+                    class="radio-stitch"
+                    onclick="selectStitch('white')"
+                    data-color="white"
+                  >
                     <div
                       style="
                         display: flex;
@@ -434,7 +568,11 @@
                     </div>
                   </div>
 
-                  <div class="radio-stitch" onclick="selectStitch('natural')">
+                  <div
+                    class="radio-stitch"
+                    onclick="selectStitch('natural')"
+                    data-color="natural"
+                  >
                     <div
                       style="
                         display: flex;
@@ -456,7 +594,11 @@
                     </div>
                   </div>
 
-                  <div class="radio-stitch" onclick="selectStitch('grey')">
+                  <div
+                    class="radio-stitch"
+                    onclick="selectStitch('grey')"
+                    data-color="grey"
+                  >
                     <div
                       style="
                         display: flex;
@@ -478,7 +620,11 @@
                     </div>
                   </div>
 
-                  <div class="radio-stitch" onclick="selectStitch('red')">
+                  <div
+                    class="radio-stitch"
+                    onclick="selectStitch('red')"
+                    data-color="red"
+                  >
                     <div
                       style="
                         display: flex;
@@ -500,7 +646,11 @@
                     </div>
                   </div>
 
-                  <div class="radio-stitch" onclick="selectStitch('pink')">
+                  <div
+                    class="radio-stitch"
+                    onclick="selectStitch('pink')"
+                    data-color="pink"
+                  >
                     <div
                       style="
                         display: flex;
@@ -522,7 +672,11 @@
                     </div>
                   </div>
 
-                  <div class="radio-stitch" onclick="selectStitch('yellow')">
+                  <div
+                    class="radio-stitch"
+                    onclick="selectStitch('yellow')"
+                    data-color="yellow"
+                  >
                     <div
                       style="
                         display: flex;
@@ -544,7 +698,11 @@
                     </div>
                   </div>
 
-                  <div class="radio-stitch" onclick="selectStitch('green')">
+                  <div
+                    class="radio-stitch"
+                    onclick="selectStitch('green')"
+                    data-color="green"
+                  >
                     <div
                       style="
                         display: flex;
@@ -566,7 +724,11 @@
                     </div>
                   </div>
 
-                  <div class="radio-stitch" onclick="selectStitch('blue')">
+                  <div
+                    class="radio-stitch"
+                    onclick="selectStitch('blue')"
+                    data-color="blue"
+                  >
                     <div
                       style="
                         display: flex;
@@ -595,7 +757,11 @@
               <div class="mt-5">
                 <h6 class="h5 text-white">Piping Colour</h6>
                 <div class="d-flex justify-content-start flex-wrap mt-4">
-                  <div class="radio-pip selected" onclick="selectPip('black')">
+                  <div
+                    class="radio-pip selected"
+                    onclick="selectPip('black')"
+                    data-color="black"
+                  >
                     <div
                       style="
                         display: flex;
@@ -614,7 +780,11 @@
                     </div>
                   </div>
 
-                  <div class="radio-pip" onclick="selectPip('chocolate')">
+                  <div
+                    class="radio-pip"
+                    onclick="selectPip('chocolate')"
+                    data-color="chocolate"
+                  >
                     <div
                       style="
                         display: flex;
@@ -633,7 +803,11 @@
                     </div>
                   </div>
 
-                  <div class="radio-pip" onclick="selectPip('oak')">
+                  <div
+                    class="radio-pip"
+                    onclick="selectPip('oak')"
+                    data-color="oak"
+                  >
                     <div
                       style="
                         display: flex;
@@ -652,7 +826,11 @@
                     </div>
                   </div>
 
-                  <div class="radio-pip" onclick="selectPip('tabacco')">
+                  <div
+                    class="radio-pip"
+                    onclick="selectPip('tabacco')"
+                    data-color="tabacco"
+                  >
                     <div
                       style="
                         display: flex;
@@ -671,7 +849,11 @@
                     </div>
                   </div>
 
-                  <div class="radio-pip" onclick="selectPip('cognac')">
+                  <div
+                    class="radio-pip"
+                    onclick="selectPip('cognac')"
+                    data-color="cognac"
+                  >
                     <div
                       style="
                         display: flex;
@@ -690,7 +872,11 @@
                     </div>
                   </div>
 
-                  <div class="radio-pip" onclick="selectPip('white')">
+                  <div
+                    class="radio-pip"
+                    onclick="selectPip('white')"
+                    data-color="white"
+                  >
                     <div
                       style="
                         display: flex;
@@ -709,7 +895,11 @@
                     </div>
                   </div>
 
-                  <div class="radio-pip" onclick="selectPip('natural')">
+                  <div
+                    class="radio-pip"
+                    onclick="selectPip('natural')"
+                    data-color="natural"
+                  >
                     <div
                       style="
                         display: flex;
@@ -728,7 +918,11 @@
                     </div>
                   </div>
 
-                  <div class="radio-pip" onclick="selectPip('grey')">
+                  <div
+                    class="radio-pip"
+                    onclick="selectPip('grey')"
+                    data-color="grey"
+                  >
                     <div
                       style="
                         display: flex;
@@ -747,7 +941,11 @@
                     </div>
                   </div>
 
-                  <div class="radio-pip" onclick="selectPip('red')">
+                  <div
+                    class="radio-pip"
+                    onclick="selectPip('red')"
+                    data-color="red"
+                  >
                     <div
                       style="
                         display: flex;
@@ -766,7 +964,11 @@
                     </div>
                   </div>
 
-                  <div class="radio-pip" onclick="selectPip('pink')">
+                  <div
+                    class="radio-pip"
+                    onclick="selectPip('pink')"
+                    data-color="pink"
+                  >
                     <div
                       style="
                         display: flex;
@@ -785,7 +987,11 @@
                     </div>
                   </div>
 
-                  <div class="radio-pip" onclick="selectPip('yellow')">
+                  <div
+                    class="radio-pip"
+                    onclick="selectPip('yellow')"
+                    data-color="yellow"
+                  >
                     <div
                       style="
                         display: flex;
@@ -804,7 +1010,11 @@
                     </div>
                   </div>
 
-                  <div class="radio-pip" onclick="selectPip('green')">
+                  <div
+                    class="radio-pip"
+                    onclick="selectPip('green')"
+                    data-color="green"
+                  >
                     <div
                       style="
                         display: flex;
@@ -823,7 +1033,11 @@
                     </div>
                   </div>
 
-                  <div class="radio-pip" onclick="selectPip('blue')">
+                  <div
+                    class="radio-pip"
+                    onclick="selectPip('blue')"
+                    data-color="blue"
+                  >
                     <div
                       style="
                         display: flex;
@@ -853,6 +1067,7 @@
                 <div
                   class="radio-keeper selected"
                   onclick="selectKeeper('black')"
+                  data-color="black"
                 >
                   <div
                     style="
@@ -875,7 +1090,11 @@
                   </div>
                 </div>
 
-                <div class="radio-keeper" onclick="selectKeeper('chocolate')">
+                <div
+                  class="radio-keeper"
+                  onclick="selectKeeper('chocolate')"
+                  data-color="chocolate"
+                >
                   <div
                     style="
                       display: flex;
@@ -894,7 +1113,11 @@
                   </div>
                 </div>
 
-                <div class="radio-keeper" onclick="selectKeeper('oak')">
+                <div
+                  class="radio-keeper"
+                  onclick="selectKeeper('oak')"
+                  data-color="oak"
+                >
                   <div
                     style="
                       display: flex;
@@ -913,7 +1136,11 @@
                   </div>
                 </div>
 
-                <div class="radio-keeper" onclick="selectKeeper('tabacco')">
+                <div
+                  class="radio-keeper"
+                  onclick="selectKeeper('tabacco')"
+                  data-color="tabacco"
+                >
                   <div
                     style="
                       display: flex;
@@ -932,7 +1159,11 @@
                   </div>
                 </div>
 
-                <div class="radio-keeper" onclick="selectKeeper('cognac')">
+                <div
+                  class="radio-keeper"
+                  onclick="selectKeeper('cognac')"
+                  data-color="cognac"
+                >
                   <div
                     style="
                       display: flex;
@@ -951,7 +1182,11 @@
                   </div>
                 </div>
 
-                <div class="radio-keeper" onclick="selectKeeper('white')">
+                <div
+                  class="radio-keeper"
+                  onclick="selectKeeper('white')"
+                  data-color="white"
+                >
                   <div
                     style="
                       display: flex;
@@ -970,7 +1205,11 @@
                   </div>
                 </div>
 
-                <div class="radio-keeper" onclick="selectKeeper('natural')">
+                <div
+                  class="radio-keeper"
+                  onclick="selectKeeper('natural')"
+                  data-color="natural"
+                >
                   <div
                     style="
                       display: flex;
@@ -989,7 +1228,11 @@
                   </div>
                 </div>
 
-                <div class="radio-keeper" onclick="selectKeeper('grey')">
+                <div
+                  class="radio-keeper"
+                  onclick="selectKeeper('grey')"
+                  data-color="grey"
+                >
                   <div
                     style="
                       display: flex;
@@ -1008,7 +1251,11 @@
                   </div>
                 </div>
 
-                <div class="radio-keeper" onclick="selectKeeper('red')">
+                <div
+                  class="radio-keeper"
+                  onclick="selectKeeper('red')"
+                  data-color="red"
+                >
                   <div
                     style="
                       display: flex;
@@ -1027,7 +1274,11 @@
                   </div>
                 </div>
 
-                <div class="radio-keeper" onclick="selectKeeper('pink')">
+                <div
+                  class="radio-keeper"
+                  onclick="selectKeeper('pink')"
+                  data-color="pink"
+                >
                   <div
                     style="
                       display: flex;
@@ -1046,7 +1297,11 @@
                   </div>
                 </div>
 
-                <div class="radio-keeper" onclick="selectKeeper('yellow')">
+                <div
+                  class="radio-keeper"
+                  onclick="selectKeeper('yellow')"
+                  data-color="yellow"
+                >
                   <div
                     style="
                       display: flex;
@@ -1065,7 +1320,11 @@
                   </div>
                 </div>
 
-                <div class="radio-keeper" onclick="selectKeeper('green')">
+                <div
+                  class="radio-keeper"
+                  onclick="selectKeeper('green')"
+                  data-color="green"
+                >
                   <div
                     style="
                       display: flex;
@@ -1084,7 +1343,11 @@
                   </div>
                 </div>
 
-                <div class="radio-keeper" onclick="selectKeeper('blue')">
+                <div
+                  class="radio-keeper"
+                  onclick="selectKeeper('blue')"
+                  data-color="blue"
+                >
                   <div
                     style="
                       display: flex;
@@ -1113,6 +1376,7 @@
                 <div
                   class="radio-facefront selected"
                   onclick="selectFacingFront('black')"
+                  data-color="black"
                 >
                   <div
                     style="
@@ -1138,6 +1402,7 @@
                 <div
                   class="radio-facefront"
                   onclick="selectFacingFront('chocolate')"
+                  data-color="chocolate"
                 >
                   <div
                     style="
@@ -1160,7 +1425,11 @@
                   </div>
                 </div>
 
-                <div class="radio-facefront" onclick="selectFacingFront('oak')">
+                <div
+                  class="radio-facefront"
+                  onclick="selectFacingFront('oak')"
+                  data-color="oak"
+                >
                   <div
                     style="
                       display: flex;
@@ -1185,6 +1454,7 @@
                 <div
                   class="radio-facefront"
                   onclick="selectFacingFront('tabacco')"
+                  data-color="tabacco"
                 >
                   <div
                     style="
@@ -1210,6 +1480,7 @@
                 <div
                   class="radio-facefront"
                   onclick="selectFacingFront('cognac')"
+                  data-color="cognac"
                 >
                   <div
                     style="
@@ -1235,6 +1506,7 @@
                 <div
                   class="radio-facefront"
                   onclick="selectFacingFront('white')"
+                  data-color="white"
                 >
                   <div
                     style="
@@ -1260,6 +1532,7 @@
                 <div
                   class="radio-facefront"
                   onclick="selectFacingFront('natural')"
+                  data-color="natural"
                 >
                   <div
                     style="
@@ -1285,6 +1558,7 @@
                 <div
                   class="radio-facefront"
                   onclick="selectFacingFront('grey')"
+                  data-color="grey"
                 >
                   <div
                     style="
@@ -1307,7 +1581,11 @@
                   </div>
                 </div>
 
-                <div class="radio-facefront" onclick="selectFacingFront('red')">
+                <div
+                  class="radio-facefront"
+                  onclick="selectFacingFront('red')"
+                  data-color="red"
+                >
                   <div
                     style="
                       display: flex;
@@ -1332,6 +1610,7 @@
                 <div
                   class="radio-facefront"
                   onclick="selectFacingFront('pink')"
+                  data-color="pink"
                 >
                   <div
                     style="
@@ -1357,6 +1636,7 @@
                 <div
                   class="radio-facefront"
                   onclick="selectFacingFront('yellow')"
+                  data-color="yellow"
                 >
                   <div
                     style="
@@ -1382,6 +1662,7 @@
                 <div
                   class="radio-facefront"
                   onclick="selectFacingFront('green')"
+                  data-color="green"
                 >
                   <div
                     style="
@@ -1407,6 +1688,7 @@
                 <div
                   class="radio-facefront"
                   onclick="selectFacingFront('blue')"
+                  data-color="blue"
                 >
                   <div
                     style="
@@ -1433,12 +1715,13 @@
             <!-- End -->
 
             <!-- FACING BACK COLOUR -->
-            <div class="mt-5">
+            <div class="mt-5 divider-title pb-5">
               <h6 class="h5 text-white">Facing Back Colour</h6>
               <div class="d-flex justify-content-start flex-wrap mt-4">
                 <div
                   class="radio-faceback selected"
                   onclick="selectFacingBack('black')"
+                  data-color="black"
                 >
                   <div
                     style="
@@ -1464,6 +1747,7 @@
                 <div
                   class="radio-faceback"
                   onclick="selectFacingBack('chocolate')"
+                  data-color="chocolate"
                 >
                   <div
                     style="
@@ -1486,7 +1770,11 @@
                   </div>
                 </div>
 
-                <div class="radio-faceback" onclick="selectFacingBack('oak')">
+                <div
+                  class="radio-faceback"
+                  onclick="selectFacingBack('oak')"
+                  data-color="oak"
+                >
                   <div
                     style="
                       display: flex;
@@ -1512,6 +1800,7 @@
                 <div
                   class="radio-faceback"
                   onclick="selectFacingBack('tabacco')"
+                  data-color="tabacco"
                 >
                   <div
                     style="
@@ -1537,6 +1826,7 @@
                 <div
                   class="radio-faceback"
                   onclick="selectFacingBack('cognac')"
+                  data-color="cognac"
                 >
                   <div
                     style="
@@ -1559,7 +1849,11 @@
                   </div>
                 </div>
 
-                <div class="radio-faceback" onclick="selectFacingBack('white')">
+                <div
+                  class="radio-faceback"
+                  onclick="selectFacingBack('white')"
+                  data-color="white"
+                >
                   <div
                     style="
                       display: flex;
@@ -1584,6 +1878,7 @@
                 <div
                   class="radio-faceback"
                   onclick="selectFacingBack('natural')"
+                  data-color="natural"
                 >
                   <div
                     style="
@@ -1606,7 +1901,11 @@
                   </div>
                 </div>
 
-                <div class="radio-faceback" onclick="selectFacingBack('grey')">
+                <div
+                  class="radio-faceback"
+                  onclick="selectFacingBack('grey')"
+                  data-color="grey"
+                >
                   <div
                     style="
                       display: flex;
@@ -1628,7 +1927,11 @@
                   </div>
                 </div>
 
-                <div class="radio-faceback" onclick="selectFacingBack('red')">
+                <div
+                  class="radio-faceback"
+                  onclick="selectFacingBack('red')"
+                  data-color="red"
+                >
                   <div
                     style="
                       display: flex;
@@ -1650,7 +1953,11 @@
                   </div>
                 </div>
 
-                <div class="radio-faceback" onclick="selectFacingBack('pink')">
+                <div
+                  class="radio-faceback"
+                  onclick="selectFacingBack('pink')"
+                  data-color="pink"
+                >
                   <div
                     style="
                       display: flex;
@@ -1675,6 +1982,7 @@
                 <div
                   class="radio-faceback"
                   onclick="selectFacingBack('yellow')"
+                  data-color="yellow"
                 >
                   <div
                     style="
@@ -1697,7 +2005,11 @@
                   </div>
                 </div>
 
-                <div class="radio-faceback" onclick="selectFacingBack('green')">
+                <div
+                  class="radio-faceback"
+                  onclick="selectFacingBack('green')"
+                  data-color="green"
+                >
                   <div
                     style="
                       display: flex;
@@ -1719,7 +2031,11 @@
                   </div>
                 </div>
 
-                <div class="radio-faceback" onclick="selectFacingBack('blue')">
+                <div
+                  class="radio-faceback"
+                  onclick="selectFacingBack('blue')"
+                  data-color="blue"
+                >
                   <div
                     style="
                       display: flex;
@@ -1743,6 +2059,16 @@
               </div>
             </div>
             <!-- End -->
+            <p class="mt-2">
+              *THE COLORS SHOWN BY THIS SOFTWARE ARE COMPUTER-GENERATED, AS
+              LEATHER IS A NATURAL PRODUCT, COLORS MAY VARY SLIGHTLY OR DARKEN
+              WHEN OILED.
+            </p>
+            <div class="col-lg-5 offset-lg-7 mt-3">
+              <a class="btn-grad page-scroll" id="requestButton" href="#"
+                >Request Price</a
+              >
+            </div>
           </div>
         </div>
       </div>
@@ -1803,7 +2129,7 @@
         <div class="row">
           <div class="col-lg-12">
             <p class="p-small">
-              Copyright © <a class="no-line" href="#your-link">Your name</a>
+              <a class="no-line" href="https://devldm.tech/">LDM Dev</a>
             </p>
           </div>
           <!-- end of col -->
@@ -1812,18 +2138,6 @@
       </div>
       <!-- end of container -->
 
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12">
-            <p class="p-small">
-              Distributed By
-              <a class="no-line" href="https://themewagon.com/">Themewagon</a>
-            </p>
-          </div>
-          <!-- end of col -->
-        </div>
-        <!-- enf of row -->
-      </div>
       <!-- end of container -->
     </div>
     <!-- end of copyright -->
@@ -1845,5 +2159,7 @@
     <script src="js/customize/customize-facingfront.js"></script>
     <script src="js/customize/customize-facingback.js"></script>
     <script src="js/fixedDiv.js"></script>
+    <script src="js/customize/saveSaddle.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
   </body>
 </html>

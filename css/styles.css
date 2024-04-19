@@ -829,8 +829,35 @@ input[type="checkbox"] {
 /*    Customize LOIRE    */
 /*************************/
 
+.selector-container {
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 10px;
+}
+
+.selector-container:first-child {
+  margin-top: 0;
+}
+
+.form-select {
+  flex: 1;
+  max-width: calc(50% - 10px);
+  background-color: black;
+  border: 1px solid #dfbd69;
+  color: #dfbd69;
+  padding-left: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  flex-grow: 1;
+}
+
+.form-select:last-child {
+  margin-right: 0;
+}
 .window-height {
-  height: 300vh;
+  height: 360vh;
 }
 
 .radio-leather {
@@ -1601,7 +1628,7 @@ a:hover.back-to-top {
 
   /* Navigation */
   .navbar .container {
-    max-width: 1330px;
+    max-width: 100%;
   }
   /* end of navigation */
 

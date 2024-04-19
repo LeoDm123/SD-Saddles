@@ -62,5 +62,4 @@ function selectPip(color) {
 
   const dotOverlay = selectedOption.querySelector(".dot-overlay-pip");
   dotOverlay.style.display = "block";
-  console.log(dotOverlay);
 }

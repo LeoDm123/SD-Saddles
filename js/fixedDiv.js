@@ -6,7 +6,7 @@ function scrollFunction() {
   var fixedDiv = document.getElementById("fixedDiv");
   var scrollableDiv = document.getElementById("scrollableDiv");
   var threshold = 200;
-  var distanceFromBottom = 1000;
+  var distanceFromBottom = 1400;
 
   var windowHeight = window.innerHeight;
 
@@ -22,9 +22,10 @@ function scrollFunction() {
 
     if (window.pageYOffset > bottomLimit) {
       fixedDiv.style.position = "relative";
-      fixedDiv.style.top = "1500px";
+      fixedDiv.style.top = "1900px";
     }
   } else {
     fixedDiv.style.position = "relative";
+    scrollableDiv.style.position = "relative";
   }
 }

@@ -38,5 +38,4 @@ function selectLeather(color) {
 
   const dotOverlay = selectedOption.querySelector(".dot-overlay-leather");
   dotOverlay.style.display = "block";
-  console.log(dotOverlay);
 }

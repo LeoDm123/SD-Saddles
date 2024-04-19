@@ -62,5 +62,4 @@ function selectFacingBack(color) {
 
   const dotOverlay = selectedOption.querySelector(".dot-overlay-faceback");
   dotOverlay.style.display = "block";
-  console.log(dotOverlay);
 }

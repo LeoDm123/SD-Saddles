@@ -63,5 +63,4 @@ function selectFacingFront(color) {
 
   const dotOverlay = selectedOption.querySelector(".dot-overlay-facefront");
   dotOverlay.style.display = "block";
-  console.log(dotOverlay);
 }

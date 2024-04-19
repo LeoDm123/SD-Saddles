@@ -53,7 +53,6 @@ function selectStitch(color) {
     option.classList.remove("selected");
     const dotOverlay = option.querySelector(".dot-overlay-stitch");
     dotOverlay.style.display = "none";
-    console.log(option);
   });
 
   const selectedOption = document.querySelector(

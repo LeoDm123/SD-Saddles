@@ -62,5 +62,4 @@ function selectKeeper(color) {
 
   const dotOverlay = selectedOption.querySelector(".dot-overlay-keeper");
   dotOverlay.style.display = "block";
-  console.log(dotOverlay);
 }
