@@ -52,7 +52,7 @@ function selectStitch(color) {
   options.forEach((option) => {
     option.classList.remove("selected");
     const dotOverlay = option.querySelector(".dot-overlay-stitch");
-    dotOverlay.style.display = "none";
+    dotOverlay.style.opacity = "0";
   });
 
   const selectedOption = document.querySelector(
@@ -61,5 +61,5 @@ function selectStitch(color) {
   selectedOption.classList.add("selected");
 
   const dotOverlay = selectedOption.querySelector(".dot-overlay-stitch");
-  dotOverlay.style.display = "block";
+  dotOverlay.style.opacity = "1";
 }

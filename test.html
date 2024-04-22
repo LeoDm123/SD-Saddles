@@ -1,0 +1,47 @@
+<style>
+  .container {
+    overflow-y: scroll; /* Agregamos scroll vertical */
+    height: 200px; /* Establecemos una altura para que el scroll sea visible */
+  }
+
+  .d-flex {
+    display: flex;
+    justify-content: space-between; /* Esto ayuda a separar los elementos a los extremos */
+  }
+
+  .fixed-div {
+    position: sticky;
+    top: 0; /* Fija el elemento en la parte superior del contenedor */
+    background-color: lightgray; /* Solo para visualización */
+    padding: 10px; /* Agregamos espaciado para que se vea mejor */
+    margin-right: 10px; /* Ajustamos el margen para que no se pegue al otro div */
+    width: 75%;
+  }
+
+  .scrolling-div {
+    background-color: lightblue; /* Solo para visualización */
+    padding: 10px; /* Agregamos espaciado para que se vea mejor */
+    width: 25%;
+  }
+</style>
+
+<div class="container">
+  <div class="d-flex justify-content-around">
+    <div class="fixed-div">Div Fijo</div>
+    <div class="scrolling-div">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec non lorem
+      sit amet libero euismod semper. Fusce ultrices urna eu mi vehicula, eget
+      ultricies dolor tincidunt. Lorem ipsum dolor sit amet, consectetur
+      adipiscing elit. Donec non lorem sit amet libero euismod semper. Fusce
+      ultrices urna eu mi vehicula, eget ultricies dolor tincidunt. Lorem ipsum
+      dolor sit amet, consectetur adipiscing elit. Donec non lorem sit amet
+      libero euismod semper. Fusce ultrices urna eu mi vehicula, eget ultricies
+      dolor tincidunt. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Donec non lorem sit amet libero euismod semper. Fusce ultrices urna eu mi
+      vehicula, eget ultricies dolor tincidunt. Lorem ipsum dolor sit amet,
+      consectetur adipiscing elit. Donec non lorem sit amet libero euismod
+      semper. Fusce ultrices urna eu mi vehicula, eget ultricies dolor
+      tincidunt.
+    </div>
+  </div>
+</div>

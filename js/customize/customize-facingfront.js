@@ -53,7 +53,7 @@ function selectFacingFront(color) {
   options.forEach((option) => {
     option.classList.remove("selected");
     const dotOverlay = option.querySelector(".dot-overlay-facefront");
-    dotOverlay.style.display = "none";
+    dotOverlay.style.opacity = "0";
   });
 
   const selectedOption = document.querySelector(
@@ -62,5 +62,5 @@ function selectFacingFront(color) {
   selectedOption.classList.add("selected");
 
   const dotOverlay = selectedOption.querySelector(".dot-overlay-facefront");
-  dotOverlay.style.display = "block";
+  dotOverlay.style.opacity = "1";
 }

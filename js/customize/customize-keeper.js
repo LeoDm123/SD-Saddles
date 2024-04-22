@@ -52,7 +52,7 @@ function selectKeeper(color) {
   options.forEach((option) => {
     option.classList.remove("selected");
     const dotOverlay = option.querySelector(".dot-overlay-keeper");
-    dotOverlay.style.display = "none";
+    dotOverlay.style.opacity = "0";
   });
 
   const selectedOption = document.querySelector(
@@ -61,5 +61,5 @@ function selectKeeper(color) {
   selectedOption.classList.add("selected");
 
   const dotOverlay = selectedOption.querySelector(".dot-overlay-keeper");
-  dotOverlay.style.display = "block";
+  dotOverlay.style.opacity = "1";
 }

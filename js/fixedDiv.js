@@ -12,10 +12,11 @@ function scrollFunction() {
 
   if (window.pageYOffset > threshold) {
     fixedDiv.style.position = "fixed";
-    fixedDiv.style.top = "0px";
+    fixedDiv.style.left = "15px";
+    fixedDiv.style.top = 0;
 
     scrollableDiv.style.position = "absolute";
-    scrollableDiv.style.right = 0;
+    scrollableDiv.style.right = "15px";
     scrollableDiv.style.top = 0;
 
     var bottomLimit = windowHeight + distanceFromBottom;
@@ -27,5 +28,7 @@ function scrollFunction() {
   } else {
     fixedDiv.style.position = "relative";
     scrollableDiv.style.position = "relative";
+    fixedDiv.style.left = 0;
+    scrollableDiv.style.right = 0;
   }
 }

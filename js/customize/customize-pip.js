@@ -52,7 +52,7 @@ function selectPip(color) {
   options.forEach((option) => {
     option.classList.remove("selected");
     const dotOverlay = option.querySelector(".dot-overlay-pip");
-    dotOverlay.style.display = "none";
+    dotOverlay.style.opacity = "0";
   });
 
   const selectedOption = document.querySelector(
@@ -61,5 +61,5 @@ function selectPip(color) {
   selectedOption.classList.add("selected");
 
   const dotOverlay = selectedOption.querySelector(".dot-overlay-pip");
-  dotOverlay.style.display = "block";
+  dotOverlay.style.opacity = "";
 }

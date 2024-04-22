@@ -52,7 +52,7 @@ function selectFacingBack(color) {
   options.forEach((option) => {
     option.classList.remove("selected");
     const dotOverlay = option.querySelector(".dot-overlay-faceback");
-    dotOverlay.style.display = "none";
+    dotOverlay.style.opacity = "0";
   });
 
   const selectedOption = document.querySelector(
@@ -61,5 +61,5 @@ function selectFacingBack(color) {
   selectedOption.classList.add("selected");
 
   const dotOverlay = selectedOption.querySelector(".dot-overlay-faceback");
-  dotOverlay.style.display = "block";
+  dotOverlay.style.opacity = "1";
 }
