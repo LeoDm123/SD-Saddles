@@ -130,65 +130,81 @@
       </div>
     </header>
 
-    <!-- About-->
-    <div id="about" class="basic-1 bg-product">
-      <div class="prod-container">
+    <div id="about" class="bg-product">
+      <div class="filter-container">
+        <div>
+          <p class="text-left text-white p-large">Filter by category</p>
+        </div>
         <div class="row">
-          <div class="p-1 m-2 card bg-product" style="width: 18rem">
-            <img
-              src="/images/saddles/Alissa/Alissa-Black.png"
-              class="card-img-top img-bright"
-              alt="..."
-            />
-            <div class="card-body text-center">
-              <h6 class="h3 text-gold">ALISSA</h6>
-            </div>
-            <div class="px-5 mb-4">
-              <a class="btn-grad" href="#">Customize</a>
-            </div>
+          <div class="ml-3 mr-3">
+            <label class="custom-checkbox">
+              <input name="dummy" type="checkbox" />
+              <span class="checkmark"></span>
+            </label>
+            <label class="form-check-label text-white" for="flexCheckDefault">
+              Dressage
+            </label>
           </div>
 
-          <div class="p-1 m-2 card bg-product" style="width: 18rem">
-            <img
-              src="/images/saddles/Arthur/Arthur-Black.png"
-              class="card-img-top img-bright"
-              alt="..."
-            />
-            <div class="card-body text-center">
-              <h6 class="h3 text-gold">ARTHUR</h6>
-            </div>
-            <div class="px-5 mb-4">
-              <a class="btn-grad" href="#">Customize</a>
-            </div>
+          <div class="mx-3">
+            <label class="custom-checkbox">
+              <input name="dummy" type="checkbox" />
+              <span class="checkmark"></span>
+            </label>
+            <label class="form-check-label text-white" for="flexCheckDefault">
+              Jumping
+            </label>
           </div>
-
-          <div class="p-1 m-2 card bg-product" style="width: 18rem">
-            <img
-              src="/images/saddles/Loire/Loire-Leather-Black.png"
-              class="card-img-top img-bright"
-              alt="..."
-            />
-            <div class="card-body text-center">
-              <h6 class="h3 text-gold">LOIRE</h6>
-            </div>
-            <div class="px-5 mb-4">
-              <a class="btn-grad" href="#">Customize</a>
-            </div>
+          <div class="mx-3">
+            <label class="custom-checkbox">
+              <input name="dummy" type="checkbox" />
+              <span class="checkmark"></span>
+            </label>
+            <label class="form-check-label text-white" for="flexCheckDefault">
+              Eventing
+            </label>
           </div>
-
-          <div class="p-1 m-2 card bg-product" style="width: 18rem">
-            <img
-              src="/images/saddles/Lavender/Lavender-Black.png"
-              class="card-img-top img-bright"
-              alt="..."
-            />
-            <div class="card-body text-center">
-              <h6 class="h3 text-gold">LAVENDER</h6>
-            </div>
-            <div class="px-5 mb-4">
-              <a class="btn-grad" href="#">Customize</a>
-            </div>
+          <div class="mx-3">
+            <label class="custom-checkbox">
+              <input name="dummy" type="checkbox" />
+              <span class="checkmark"></span>
+            </label>
+            <label class="form-check-label text-white" for="flexCheckDefault">
+              General Purpose
+            </label>
           </div>
+          <div class="mx-3">
+            <label class="custom-checkbox">
+              <input name="dummy" type="checkbox" />
+              <span class="checkmark"></span>
+            </label>
+            <label class="form-check-label text-white" for="flexCheckDefault">
+              Icelandinc
+            </label>
+          </div>
+          <div class="mx-3">
+            <label class="custom-checkbox">
+              <input name="dummy" type="checkbox" />
+              <span class="checkmark"></span>
+            </label>
+            <label class="form-check-label text-white" for="flexCheckDefault">
+              Pony
+            </label>
+          </div>
+          <div class="mx-3">
+            <label class="custom-checkbox">
+              <input name="dummy" type="checkbox" />
+              <span class="checkmark"></span>
+            </label>
+            <label class="form-check-label text-white" for="flexCheckDefault">
+              Leisure
+            </label>
+          </div>
+        </div>
+      </div>
+      <div id="prod-container" class="prod-container">
+        <div class="prod-row">
+          <!-- Aquí van las tarjetas de productos -->
         </div>
       </div>
     </div>
@@ -264,5 +280,7 @@
     <!-- jQuery Easing for smooth scrolling between anchors -->
     <script src="js/scripts.js"></script>
     <!-- Custom scripts -->
+    <script type="module" src="js/createProductCard.js"></script>
+    <script src="js/categoryFilter.js"></script>
   </body>
 </html>

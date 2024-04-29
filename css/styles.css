@@ -811,10 +811,23 @@ input[type="checkbox"] {
 }
 
 .prod-container {
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 20px;
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
+}
+
+.filter-container {
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 10.5%;
+}
+
+.prod-row {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
 }
 
 .card {
@@ -1723,3 +1736,69 @@ a:hover.back-to-top {
   /* end of extra pages */
 }
 /* end of min-width 1200px */
+
+/*CUSTOM CHECKBOX*/
+.custom-checkbox {
+  display: inline-flex;
+  align-items: center;
+  cursor: pointer;
+  user-select: none;
+  font-size: 16px;
+  color: #333;
+  transition: color 0.3s;
+}
+
+.custom-checkbox input[type="checkbox"] {
+  display: none;
+}
+
+.custom-checkbox .checkmark {
+  width: 20px;
+  height: 20px;
+  border: 2px solid #333;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  margin-right: 5px;
+  justify-content: center;
+  transition: background-color 0.3s, border-color 0.3s, transform 0.3s;
+  transform-style: preserve-3d;
+}
+
+.custom-checkbox .checkmark::before {
+  content: "\2713";
+  font-size: 16px;
+  color: transparent;
+  transition: color 0.3s, transform 0.3s;
+}
+
+.custom-checkbox input[type="checkbox"]:checked + .checkmark {
+  background-image: linear-gradient(to right, #dfbd69 0%, #926f34 100%);
+  border-color: #dfbd69;
+  transform: scale(1.1) rotateZ(360deg) rotateY(360deg);
+}
+
+.custom-checkbox input[type="checkbox"]:checked + .checkmark::before {
+  color: #fff;
+}
+
+.custom-checkbox:hover {
+  color: #666;
+}
+
+.custom-checkbox:hover .checkmark {
+  border-color: #dfbd69;
+  background-image: linear-gradient(to right, #dfbd69 0%, #926f34 100%);
+  transform: scale(1.05);
+}
+
+.custom-checkbox input[type="checkbox"]:focus + .checkmark {
+  box-shadow: 0 0 3px 2px rgba(0, 0, 0, 0.2);
+  outline: none;
+}
+
+.custom-checkbox .checkmark,
+.custom-checkbox input[type="checkbox"]:checked + .checkmark {
+  transition: background-color 1.3s, border-color 1.3s, color 1.3s,
+    transform 0.3s;
+}
