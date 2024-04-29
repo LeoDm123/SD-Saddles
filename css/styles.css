@@ -821,6 +821,8 @@ input[type="checkbox"] {
   padding-top: 20px;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
   margin-left: 10.5%;
 }
 

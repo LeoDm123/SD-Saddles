@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     card.innerHTML = `
         <div class="ml-3 mt-2 text-left">
-          <p class="p-small text-white">Category: ${producto.category}</p>
+          <p class="text-center p-small text-white">Category: ${producto.category}</p>
         </div>
         <img src="${producto.image.src}" class="card-img-top img-bright" alt="${producto.image.alt}">
         <div class="card-body text-center">
