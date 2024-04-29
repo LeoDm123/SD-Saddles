@@ -787,6 +787,11 @@ input[type="checkbox"] {
   width: 20%;
 }
 
+.divider-title-md {
+  border-bottom: 1px solid #dfbd69;
+  width: 60%;
+}
+
 /************************/
 /*    Products Page     */
 /************************/
@@ -823,7 +828,6 @@ input[type="checkbox"] {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-left: 10.5%;
 }
 
 .prod-row {
