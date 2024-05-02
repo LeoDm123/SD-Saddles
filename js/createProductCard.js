@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", function () {
           <h6 class="h3 text-gold">${producto.name}</h6>
         </div>
         <div class="px-5 mb-4">
-          <a class="btn-grad" href="#">Customize</a>
+          <a class="btn-grad" href="/${producto.link}">Customize</a>
         </div>
       `;
 

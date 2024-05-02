@@ -1,46 +1,47 @@
 function selectKeeper(color) {
   var img = document.querySelector(".customize-keeper");
   var newSrc = "";
+  var currentPageName = getPageName();
 
   switch (color) {
-    case "black":
-      newSrc = "images/saddles/Loire/Keeper/Loire-Keeper-Black.png";
+    case `black`:
+      newSrc = `images/saddles/${currentPageName}/Keeper/${currentPageName}-Keeper-Black.png`;
       break;
-    case "chocolate":
-      newSrc = "images/saddles/Loire/Keeper/Loire-Keeper-Chocolate.png";
+    case `chocolate`:
+      newSrc = `images/saddles/${currentPageName}/Keeper/${currentPageName}-Keeper-Chocolate.png`;
       break;
-    case "oak":
-      newSrc = "images/saddles/Loire/Keeper/Loire-Keeper-Oak.png";
+    case `oak`:
+      newSrc = `images/saddles/${currentPageName}/Keeper/${currentPageName}-Keeper-Oak.png`;
       break;
-    case "tabacco":
-      newSrc = "images/saddles/Loire/Keeper/Loire-Keeper-Tabacco.png";
+    case `tabacco`:
+      newSrc = `images/saddles/${currentPageName}/Keeper/${currentPageName}-Keeper-Tabacco.png`;
       break;
-    case "cognac":
-      newSrc = "images/saddles/Loire/Keeper/Loire-Keeper-Cognac.png";
+    case `cognac`:
+      newSrc = `images/saddles/${currentPageName}/Keeper/${currentPageName}-Keeper-Cognac.png`;
       break;
-    case "white":
-      newSrc = "images/saddles/Loire/Keeper/Loire-Keeper-White.png";
+    case `white`:
+      newSrc = `images/saddles/${currentPageName}/Keeper/${currentPageName}-Keeper-White.png`;
       break;
-    case "natural":
-      newSrc = "images/saddles/Loire/Keeper/Loire-Keeper-Natural.png";
+    case `natural`:
+      newSrc = `images/saddles/${currentPageName}/Keeper/${currentPageName}-Keeper-Natural.png`;
       break;
-    case "grey":
-      newSrc = "images/saddles/Loire/Keeper/Loire-Keeper-Grey.png";
+    case `grey`:
+      newSrc = `images/saddles/${currentPageName}/Keeper/${currentPageName}-Keeper-Grey.png`;
       break;
-    case "red":
-      newSrc = "images/saddles/Loire/Keeper/Loire-Keeper-Red.png";
+    case `red`:
+      newSrc = `images/saddles/${currentPageName}/Keeper/${currentPageName}-Keeper-Red.png`;
       break;
-    case "pink":
-      newSrc = "images/saddles/Loire/Keeper/Loire-Keeper-Pink.png";
+    case `pink`:
+      newSrc = `images/saddles/${currentPageName}/Keeper/${currentPageName}-Keeper-Pink.png`;
       break;
-    case "yellow":
-      newSrc = "images/saddles/Loire/Keeper/Loire-Keeper-Yellow.png";
+    case `yellow`:
+      newSrc = `images/saddles/${currentPageName}/Keeper/${currentPageName}-Keeper-Yellow.png`;
       break;
-    case "green":
-      newSrc = "images/saddles/Loire/Keeper/Loire-Keeper-Green.png";
+    case `green`:
+      newSrc = `images/saddles/${currentPageName}/Keeper/${currentPageName}-Keeper-Green.png`;
       break;
-    case "blue":
-      newSrc = "images/saddles/Loire/Keeper/Loire-Keeper-Blue.png";
+    case `blue`:
+      newSrc = `images/saddles/${currentPageName}/Keeper/${currentPageName}-Keeper-Blue.png`;
       break;
     default:
       break;
@@ -62,4 +63,14 @@ function selectKeeper(color) {
 
   const dotOverlay = selectedOption.querySelector(".dot-overlay-keeper");
   dotOverlay.style.opacity = "1";
+}
+
+function getPageName() {
+  var url = window.location.href;
+  var pageName = url.split("/").pop().split(".")[0];
+  console.log(pageName);
+  if (pageName.startsWith("custom-")) {
+    pageName = pageName.slice(7);
+  }
+  return pageName;
 }

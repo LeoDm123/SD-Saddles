@@ -1,22 +1,23 @@
 function selectLeather(color) {
   var img = document.querySelector(".customize-leather");
   var newSrc = "";
+  var currentPageName = getPageName();
 
   switch (color) {
-    case "black":
-      newSrc = "images/saddles/Loire/Loire-Leather-Black.png";
+    case `black`:
+      newSrc = `images/saddles/${currentPageName}/${currentPageName}-Leather-Black.png`;
       break;
-    case "chocolate":
-      newSrc = "images/saddles/Loire/Loire-Leather-Chocolate.png";
+    case `chocolate`:
+      newSrc = `images/saddles/${currentPageName}/${currentPageName}-Leather-Chocolate.png`;
       break;
-    case "oak":
-      newSrc = "images/saddles/Loire/Loire-Leather-Oak.png";
+    case `oak`:
+      newSrc = `images/saddles/${currentPageName}/${currentPageName}-Leather-Oak.png`;
       break;
-    case "tabacco":
-      newSrc = "images/saddles/Loire/Loire-Leather-Tabacco.png";
+    case `tabacco`:
+      newSrc = `images/saddles/${currentPageName}/${currentPageName}-Leather-Tabacco.png`;
       break;
-    case "cognac":
-      newSrc = "images/saddles/Loire/Loire-Leather-Cognac.png";
+    case `cognac`:
+      newSrc = `images/saddles/${currentPageName}/${currentPageName}-Leather-Cognac.png`;
       break;
     default:
       break;
@@ -38,4 +39,14 @@ function selectLeather(color) {
 
   const dotOverlay = selectedOption.querySelector(".dot-overlay-leather");
   dotOverlay.style.opacity = "1";
+}
+
+function getPageName() {
+  var url = window.location.href;
+  var pageName = url.split("/").pop().split(".")[0];
+  console.log(pageName);
+  if (pageName.startsWith("custom-")) {
+    pageName = pageName.slice(7);
+  }
+  return pageName;
 }

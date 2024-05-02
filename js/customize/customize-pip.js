@@ -1,46 +1,47 @@
 function selectPip(color) {
   var img = document.querySelector(".customize-pip");
   var newSrc = "";
+  var currentPageName = getPageName();
 
   switch (color) {
-    case "black":
-      newSrc = "images/saddles/Loire/Piping/Loire-Piping-Black.png";
+    case `black`:
+      newSrc = `images/saddles/${currentPageName}/Piping/${currentPageName}-Piping-Black.png`;
       break;
-    case "chocolate":
-      newSrc = "images/saddles/Loire/Piping/Loire-Piping-Chocolate.png";
+    case `chocolate`:
+      newSrc = `images/saddles/${currentPageName}/Piping/${currentPageName}-Piping-Chocolate.png`;
       break;
-    case "oak":
-      newSrc = "images/saddles/Loire/Piping/Loire-Piping-Oak.png";
+    case `oak`:
+      newSrc = `images/saddles/${currentPageName}/Piping/${currentPageName}-Piping-Oak.png`;
       break;
-    case "tabacco":
-      newSrc = "images/saddles/Loire/Piping/Loire-Piping-Tabacco.png";
+    case `tabacco`:
+      newSrc = `images/saddles/${currentPageName}/Piping/${currentPageName}-Piping-Tabacco.png`;
       break;
-    case "cognac":
-      newSrc = "images/saddles/Loire/Piping/Loire-Piping-Cognac.png";
+    case `cognac`:
+      newSrc = `images/saddles/${currentPageName}/Piping/${currentPageName}-Piping-Cognac.png`;
       break;
-    case "white":
-      newSrc = "images/saddles/Loire/Piping/Loire-Piping-White.png";
+    case `white`:
+      newSrc = `images/saddles/${currentPageName}/Piping/${currentPageName}-Piping-White.png`;
       break;
-    case "natural":
-      newSrc = "images/saddles/Loire/Piping/Loire-Piping-Natural.png";
+    case `natural`:
+      newSrc = `images/saddles/${currentPageName}/Piping/${currentPageName}-Piping-Natural.png`;
       break;
-    case "grey":
-      newSrc = "images/saddles/Loire/Piping/Loire-Piping-Grey.png";
+    case `grey`:
+      newSrc = `images/saddles/${currentPageName}/Piping/${currentPageName}-Piping-Grey.png`;
       break;
-    case "red":
-      newSrc = "images/saddles/Loire/Piping/Loire-Piping-Red.png";
+    case `red`:
+      newSrc = `images/saddles/${currentPageName}/Piping/${currentPageName}-Piping-Red.png`;
       break;
-    case "pink":
-      newSrc = "images/saddles/Loire/Piping/Loire-Piping-Pink.png";
+    case `pink`:
+      newSrc = `images/saddles/${currentPageName}/Piping/${currentPageName}-Piping-Pink.png`;
       break;
-    case "yellow":
-      newSrc = "images/saddles/Loire/Piping/Loire-Piping-Yellow.png";
+    case `yellow`:
+      newSrc = `images/saddles/${currentPageName}/Piping/${currentPageName}-Piping-Yellow.png`;
       break;
-    case "green":
-      newSrc = "images/saddles/Loire/Piping/Loire-Piping-Green.png";
+    case `green`:
+      newSrc = `images/saddles/${currentPageName}/Piping/${currentPageName}-Piping-Green.png`;
       break;
-    case "blue":
-      newSrc = "images/saddles/Loire/Piping/Loire-Piping-Blue.png";
+    case `blue`:
+      newSrc = `images/saddles/${currentPageName}/Piping/${currentPageName}-Piping-Blue.png`;
       break;
     default:
       break;
@@ -62,4 +63,14 @@ function selectPip(color) {
 
   const dotOverlay = selectedOption.querySelector(".dot-overlay-pip");
   dotOverlay.style.opacity = "";
+}
+
+function getPageName() {
+  var url = window.location.href;
+  var pageName = url.split("/").pop().split(".")[0];
+  console.log(pageName);
+  if (pageName.startsWith("custom-")) {
+    pageName = pageName.slice(7);
+  }
+  return pageName;
 }

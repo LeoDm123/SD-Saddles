@@ -1,47 +1,47 @@
 function selectFacingFront(color) {
   var img = document.querySelector(".customize-facefront");
   var newSrc = "";
+  var currentPageName = getPageName();
 
   switch (color) {
-    case "black":
-      newSrc = "images/saddles/Loire/FacingFront/Loire-FacingFront-Black.png";
+    case `black`:
+      newSrc = `images/saddles/${currentPageName}/FacingFront/${currentPageName}-FacingFront-Black.png`;
       break;
-    case "chocolate":
-      newSrc =
-        "images/saddles/Loire/FacingFront/Loire-FacingFront-Chocolate.png";
+    case `chocolate`:
+      newSrc = `images/saddles/${currentPageName}/FacingFront/${currentPageName}-FacingFront-Chocolate.png`;
       break;
-    case "oak":
-      newSrc = "images/saddles/Loire/FacingFront/Loire-FacingFront-Oak.png";
+    case `oak`:
+      newSrc = `images/saddles/${currentPageName}/FacingFront/${currentPageName}-FacingFront-Oak.png`;
       break;
-    case "tabacco":
-      newSrc = "images/saddles/Loire/FacingFront/Loire-FacingFront-Tabacco.png";
+    case `tabacco`:
+      newSrc = `images/saddles/${currentPageName}/FacingFront/${currentPageName}-FacingFront-Tabacco.png`;
       break;
-    case "cognac":
-      newSrc = "images/saddles/Loire/FacingFront/Loire-FacingFront-Cognac.png";
+    case `cognac`:
+      newSrc = `images/saddles/${currentPageName}/FacingFront/${currentPageName}-FacingFront-Cognac.png`;
       break;
-    case "white":
-      newSrc = "images/saddles/Loire/FacingFront/Loire-FacingFront-White.png";
+    case `white`:
+      newSrc = `images/saddles/${currentPageName}/FacingFront/${currentPageName}-FacingFront-White.png`;
       break;
-    case "natural":
-      newSrc = "images/saddles/Loire/FacingFront/Loire-FacingFront-Natural.png";
+    case `natural`:
+      newSrc = `images/saddles/${currentPageName}/FacingFront/${currentPageName}-FacingFront-Natural.png`;
       break;
-    case "grey":
-      newSrc = "images/saddles/Loire/FacingFront/Loire-FacingFront-Grey.png";
+    case `grey`:
+      newSrc = `images/saddles/${currentPageName}/FacingFront/${currentPageName}-FacingFront-Grey.png`;
       break;
-    case "red":
-      newSrc = "images/saddles/Loire/FacingFront/Loire-FacingFront-Red.png";
+    case `red`:
+      newSrc = `images/saddles/${currentPageName}/FacingFront/${currentPageName}-FacingFront-Red.png`;
       break;
-    case "pink":
-      newSrc = "images/saddles/Loire/FacingFront/Loire-FacingFront-Pink.png";
+    case `pink`:
+      newSrc = `images/saddles/${currentPageName}/FacingFront/${currentPageName}-FacingFront-Pink.png`;
       break;
-    case "yellow":
-      newSrc = "images/saddles/Loire/FacingFront/Loire-FacingFront-Yellow.png";
+    case `yellow`:
+      newSrc = `images/saddles/${currentPageName}/FacingFront/${currentPageName}-FacingFront-Yellow.png`;
       break;
-    case "green":
-      newSrc = "images/saddles/Loire/FacingFront/Loire-FacingFront-Green.png";
+    case `green`:
+      newSrc = `images/saddles/${currentPageName}/FacingFront/${currentPageName}-FacingFront-Green.png`;
       break;
-    case "blue":
-      newSrc = "images/saddles/Loire/FacingFront/Loire-FacingFront-Blue.png";
+    case `blue`:
+      newSrc = `images/saddles/${currentPageName}/FacingFront/${currentPageName}-FacingFront-Blue.png`;
       break;
     default:
       break;
@@ -63,4 +63,14 @@ function selectFacingFront(color) {
 
   const dotOverlay = selectedOption.querySelector(".dot-overlay-facefront");
   dotOverlay.style.opacity = "1";
+}
+
+function getPageName() {
+  var url = window.location.href;
+  var pageName = url.split("/").pop().split(".")[0];
+  console.log(pageName);
+  if (pageName.startsWith("custom-")) {
+    pageName = pageName.slice(7);
+  }
+  return pageName;
 }

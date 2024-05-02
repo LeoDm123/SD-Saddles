@@ -1,46 +1,47 @@
 function selectStitch(color) {
   var img = document.querySelector(".customize-stitch");
   var newSrc = "";
+  var currentPageName = getPageName();
 
   switch (color) {
-    case "black":
-      newSrc = "images/saddles/Loire/Stitching/Loire-Stitching-Black.png";
+    case `black`:
+      newSrc = `images/saddles/${currentPageName}/Stitching/${currentPageName}-Stitching-Black.png`;
       break;
-    case "chocolate":
-      newSrc = "images/saddles/Loire/Stitching/Loire-Stitching-Chocolate.png";
+    case `chocolate`:
+      newSrc = `images/saddles/${currentPageName}/Stitching/${currentPageName}-Stitching-Chocolate.png`;
       break;
-    case "oak":
-      newSrc = "images/saddles/Loire/Stitching/Loire-Stitching-Oak.png";
+    case `oak`:
+      newSrc = `images/saddles/${currentPageName}/Stitching/${currentPageName}-Stitching-Oak.png`;
       break;
-    case "tabacco":
-      newSrc = "images/saddles/Loire/Stitching/Loire-Stitching-Tabacco.png";
+    case `tabacco`:
+      newSrc = `images/saddles/${currentPageName}/Stitching/${currentPageName}-Stitching-Tabacco.png`;
       break;
-    case "cognac":
-      newSrc = "images/saddles/Loire/Stitching/Loire-Stitching-Cognac.png";
+    case `cognac`:
+      newSrc = `images/saddles/${currentPageName}/Stitching/${currentPageName}-Stitching-Cognac.png`;
       break;
-    case "white":
-      newSrc = "images/saddles/Loire/Stitching/Loire-Stitching-White.png";
+    case `white`:
+      newSrc = `images/saddles/${currentPageName}/Stitching/${currentPageName}-Stitching-White.png`;
       break;
-    case "natural":
-      newSrc = "images/saddles/Loire/Stitching/Loire-Stitching-Natural.png";
+    case `natural`:
+      newSrc = `images/saddles/${currentPageName}/Stitching/${currentPageName}-Stitching-Natural.png`;
       break;
-    case "grey":
-      newSrc = "images/saddles/Loire/Stitching/Loire-Stitching-Grey.png";
+    case `grey`:
+      newSrc = `images/saddles/${currentPageName}/Stitching/${currentPageName}-Stitching-Grey.png`;
       break;
-    case "red":
-      newSrc = "images/saddles/Loire/Stitching/Loire-Stitching-Red.png";
+    case `red`:
+      newSrc = `images/saddles/${currentPageName}/Stitching/${currentPageName}-Stitching-Red.png`;
       break;
-    case "pink":
-      newSrc = "images/saddles/Loire/Stitching/Loire-Stitching-Pink.png";
+    case `pink`:
+      newSrc = `images/saddles/${currentPageName}/Stitching/${currentPageName}-Stitching-Pink.png`;
       break;
-    case "yellow":
-      newSrc = "images/saddles/Loire/Stitching/Loire-Stitching-Yellow.png";
+    case `yellow`:
+      newSrc = `images/saddles/${currentPageName}/Stitching/${currentPageName}-Stitching-Yellow.png`;
       break;
-    case "green":
-      newSrc = "images/saddles/Loire/Stitching/Loire-Stitching-Green.png";
+    case `green`:
+      newSrc = `images/saddles/${currentPageName}/Stitching/${currentPageName}-Stitching-Green.png`;
       break;
-    case "blue":
-      newSrc = "images/saddles/Loire/Stitching/Loire-Stitching-Blue.png";
+    case `blue`:
+      newSrc = `images/saddles/${currentPageName}/Stitching/${currentPageName}-Stitching-Blue.png`;
       break;
     default:
       break;
@@ -62,4 +63,14 @@ function selectStitch(color) {
 
   const dotOverlay = selectedOption.querySelector(".dot-overlay-stitch");
   dotOverlay.style.opacity = "1";
+}
+
+function getPageName() {
+  var url = window.location.href;
+  var pageName = url.split("/").pop().split(".")[0];
+  console.log(pageName);
+  if (pageName.startsWith("custom-")) {
+    pageName = pageName.slice(7);
+  }
+  return pageName;
 }
