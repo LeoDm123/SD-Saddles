@@ -13,8 +13,8 @@ function selectKeeper(color) {
     case `oak`:
       newSrc = `images/saddles/${currentPageName}/Keeper/${currentPageName}-Keeper-Oak.png`;
       break;
-    case `tabacco`:
-      newSrc = `images/saddles/${currentPageName}/Keeper/${currentPageName}-Keeper-Tabacco.png`;
+    case `tobacco`:
+      newSrc = `images/saddles/${currentPageName}/Keeper/${currentPageName}-Keeper-Tobacco.png`;
       break;
     case `cognac`:
       newSrc = `images/saddles/${currentPageName}/Keeper/${currentPageName}-Keeper-Cognac.png`;

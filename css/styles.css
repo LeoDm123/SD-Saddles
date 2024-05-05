@@ -950,7 +950,7 @@ input[type="checkbox"] {
   z-index: 30;
 }
 
-.dot-tabacco {
+.dot-tobacco {
   background-color: #915249;
   width: 50px;
   height: 50px;
@@ -1045,6 +1045,16 @@ input[type="checkbox"] {
   height: 50px;
   border-radius: 30px;
   z-index: 30;
+}
+
+.dot-disabled {
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 55px;
+  height: 55px;
+  z-index: 50;
+  position: absolute;
+  transform: translate(0%, -34%);
+  border-radius: 50%;
 }
 
 .dot-overlay-leather {
@@ -1774,42 +1784,42 @@ a:hover.back-to-top {
 
   .customize-stitch {
     background-image: "images/saddles/Loire/Stitching/Loire-Stitch-Black.png";
-    width: 95.5%;
+    width: 95%;
     height: auto;
     position: absolute;
-    transform: translate(-100%, -0.25%);
+    transform: translate(-100%, 0.25%);
   }
 
   .customize-pip {
     background-image: "images/saddles/Loire/Pipping/Loire-Pipping-Black.png";
-    width: 95.5%;
+    width: 95%;
     height: auto;
     position: absolute;
-    transform: translate(-100%, -0.25%);
+    transform: translate(-100%, 0.25%);
   }
 
   .customize-keeper {
     background-image: "images/saddles/Loire/Pipping/Loire-Pipping-Black.png";
-    width: 95.5%;
+    width: 95%;
     height: auto;
     position: absolute;
-    transform: translate(-100%, -0.25%);
+    transform: translate(-100%, 0.25%);
   }
 
   .customize-facefront {
     background-image: "images/saddles/Loire/Pipping/Loire-Pipping-Black.png";
-    width: 95.5%;
+    width: 95%;
     height: auto;
     position: absolute;
-    transform: translate(-100%, -0.25%);
+    transform: translate(-100%, 0.25%);
   }
 
   .customize-faceback {
     background-image: "images/saddles/Loire/Pipping/Loire-Pipping-Black.png";
-    width: 95.5%;
+    width: 95%;
     height: auto;
     position: absolute;
-    transform: translate(-100%, -0.25%);
+    transform: translate(-100%, 0.25%);
   }
 }
 
@@ -1865,7 +1875,7 @@ a:hover.back-to-top {
   }
 }
 
-@media (min-width: 1200px) and (max-width: 1300px) {
+@media (min-width: 1250px) and (max-width: 1300px) {
   .window-height {
     height: 500vh;
   }
@@ -2021,7 +2031,7 @@ a:hover.back-to-top {
   }
 }
 
-@media (min-width: 1000px) and (max-width: 1100px) {
+@media (min-width: 1050px) and (max-width: 1100px) {
   .window-height {
     height: 500vh;
   }
@@ -2034,7 +2044,7 @@ a:hover.back-to-top {
 
   .customize-stitch {
     background-image: "images/saddles/Loire/Stitching/Loire-Stitch-Black.png";
-    width: 93.1%;
+    width: 93.8%;
     height: auto;
     position: absolute;
     transform: translate(-99.7%, -0.5%);
@@ -2042,7 +2052,7 @@ a:hover.back-to-top {
 
   .customize-pip {
     background-image: "images/saddles/Loire/Pipping/Loire-Pipping-Black.png";
-    width: 93.1%;
+    width: 93.8%;
     height: auto;
     position: absolute;
     transform: translate(-99.7%, -0.5%);
@@ -2050,7 +2060,7 @@ a:hover.back-to-top {
 
   .customize-keeper {
     background-image: "images/saddles/Loire/Pipping/Loire-Pipping-Black.png";
-    width: 93.1%;
+    width: 93.8%;
     height: auto;
     position: absolute;
     transform: translate(-99.7%, -0.5%);
@@ -2058,7 +2068,7 @@ a:hover.back-to-top {
 
   .customize-facefront {
     background-image: "images/saddles/Loire/Pipping/Loire-Pipping-Black.png";
-    width: 93.1%;
+    width: 93.8%;
     height: auto;
     position: absolute;
     transform: translate(-99.7%, -0.5%);
@@ -2066,10 +2076,555 @@ a:hover.back-to-top {
 
   .customize-faceback {
     background-image: "images/saddles/Loire/Pipping/Loire-Pipping-Black.png";
-    width: 93.1%;
+    width: 93.8%;
     height: auto;
     position: absolute;
     transform: translate(-99.7%, -0.5%);
+  }
+
+  .radio-leather label {
+    font-size: smaller;
+  }
+
+  .radio-stitch label {
+    font-size: smaller;
+  }
+
+  .radio-pip label {
+    font-size: smaller;
+  }
+
+  .radio-keeper label {
+    font-size: smaller;
+  }
+
+  .radio-facefront label {
+    font-size: smaller;
+  }
+
+  .radio-faceback label {
+    font-size: smaller;
+  }
+
+  .radio-leather {
+    margin-right: 50px;
+  }
+
+  .radio-stitch {
+    margin-right: 50px;
+  }
+
+  .radio-pip {
+    margin-right: 50px;
+  }
+
+  .radio-keeper {
+    margin-right: 50px;
+  }
+
+  .radio-facefront {
+    margin-right: 50px;
+  }
+
+  .radio-faceback {
+    margin-right: 50px;
+  }
+
+  .dot-cognac {
+    background-color: #61302b;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    z-index: 40;
+  }
+
+  .dot-tobacco {
+    background-color: #915249;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    z-index: 40;
+  }
+
+  .dot-oak {
+    background-color: #592d22;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    z-index: 40;
+  }
+
+  .dot-black {
+    background-color: black;
+    border: 1px solid gray;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    z-index: 40;
+  }
+
+  .dot-chocolate {
+    background-color: #56454d;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    z-index: 40;
+  }
+
+  .dot-white {
+    background-color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    z-index: 40;
+  }
+
+  .dot-natural {
+    background-color: #fff0c9;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    z-index: 40;
+  }
+
+  .dot-grey {
+    background-color: #999999;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    z-index: 40;
+  }
+
+  .dot-red {
+    background-color: #e94543;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    z-index: 40;
+  }
+
+  .dot-pink {
+    background-color: #da80dc;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    z-index: 40;
+  }
+
+  .dot-yellow {
+    background-color: #f1e617;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    z-index: 40;
+  }
+
+  .dot-green {
+    background-color: #919e6a;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    z-index: 40;
+  }
+
+  .dot-blue {
+    background-color: #0158c7;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    z-index: 40;
+  }
+
+  .dot-disabled {
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 55px;
+    height: 55px;
+    z-index: 50;
+    position: absolute;
+    transform: translate(0%, -35%);
+    border-radius: 50%;
+  }
+
+  .dot-overlay-leather {
+    border-radius: 50%;
+    background-color: transparent;
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    transform: translate(0%, -38%);
+    box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.5),
+      0 0 20px 10px rgba(255, 255, 255, 0.3),
+      0 0 30px 15px rgba(255, 255, 255, 0.1);
+    opacity: 0;
+    transition: opacity 0.8s ease;
+  }
+
+  .dot-overlay-stitch {
+    border-radius: 50%;
+    background-color: transparent;
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    transform: translate(0%, -38%);
+    box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.5),
+      0 0 20px 10px rgba(255, 255, 255, 0.3),
+      0 0 30px 15px rgba(255, 255, 255, 0.1);
+    opacity: 1;
+    transition: opacity 0.3s ease;
+  }
+
+  .dot-overlay-pip {
+    border-radius: 50%;
+    background-color: transparent;
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    transform: translate(0%, -38%);
+    box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.5),
+      0 0 20px 10px rgba(255, 255, 255, 0.3),
+      0 0 30px 15px rgba(255, 255, 255, 0.1);
+    opacity: 1;
+    transition: opacity 0.3s ease;
+  }
+
+  .dot-overlay-keeper {
+    border-radius: 50%;
+    background-color: transparent;
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    transform: translate(0%, -38%);
+    box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.5),
+      0 0 20px 10px rgba(255, 255, 255, 0.3),
+      0 0 30px 15px rgba(255, 255, 255, 0.1);
+    opacity: 1;
+    transition: opacity 0.3s ease;
+  }
+
+  .dot-overlay-facefront {
+    border-radius: 50%;
+    background-color: transparent;
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    transform: translate(0%, -38%);
+    box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.5),
+      0 0 20px 10px rgba(255, 255, 255, 0.3),
+      0 0 30px 15px rgba(255, 255, 255, 0.1);
+    opacity: 1;
+    transition: opacity 0.3s ease;
+  }
+
+  .dot-overlay-faceback {
+    border-radius: 50%;
+    background-color: transparent;
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    transform: translate(0%, -38%);
+    box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.5),
+      0 0 20px 10px rgba(255, 255, 255, 0.3),
+      0 0 30px 15px rgba(255, 255, 255, 0.1);
+    opacity: 1;
+    transition: opacity 0.3s ease;
+  }
+}
+
+@media (min-width: 1000px) and (max-width: 1050px) {
+  .window-height {
+    height: 500vh;
+  }
+
+  .customize-leather {
+    background-image: "images/saddles/Loire-Black.png";
+    width: 100%;
+    height: auto;
+  }
+
+  .customize-stitch {
+    background-image: "images/saddles/Loire/Stitching/Loire-Stitch-Black.png";
+    width: 93.8%;
+    height: auto;
+    position: absolute;
+    transform: translate(-99.7%, -0.5%);
+  }
+
+  .customize-pip {
+    background-image: "images/saddles/Loire/Pipping/Loire-Pipping-Black.png";
+    width: 93.8%;
+    height: auto;
+    position: absolute;
+    transform: translate(-99.7%, -0.5%);
+  }
+
+  .customize-keeper {
+    background-image: "images/saddles/Loire/Pipping/Loire-Pipping-Black.png";
+    width: 93.8%;
+    height: auto;
+    position: absolute;
+    transform: translate(-99.7%, -0.5%);
+  }
+
+  .customize-facefront {
+    background-image: "images/saddles/Loire/Pipping/Loire-Pipping-Black.png";
+    width: 93.8%;
+    height: auto;
+    position: absolute;
+    transform: translate(-99.7%, -0.5%);
+  }
+
+  .customize-faceback {
+    background-image: "images/saddles/Loire/Pipping/Loire-Pipping-Black.png";
+    width: 93.8%;
+    height: auto;
+    position: absolute;
+    transform: translate(-99.7%, -0.5%);
+  }
+  .radio-leather label {
+    font-size: smaller;
+  }
+
+  .radio-stitch label {
+    font-size: smaller;
+  }
+
+  .radio-pip label {
+    font-size: smaller;
+  }
+
+  .radio-keeper label {
+    font-size: smaller;
+  }
+
+  .radio-facefront label {
+    font-size: smaller;
+  }
+
+  .radio-faceback label {
+    font-size: smaller;
+  }
+
+  .radio-leather {
+    margin-right: 50px;
+  }
+
+  .radio-stitch {
+    margin-right: 50px;
+  }
+
+  .radio-pip {
+    margin-right: 50px;
+  }
+
+  .radio-keeper {
+    margin-right: 50px;
+  }
+
+  .radio-facefront {
+    margin-right: 50px;
+  }
+
+  .radio-faceback {
+    margin-right: 50px;
+  }
+
+  .dot-cognac {
+    background-color: #61302b;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    z-index: 30;
+  }
+
+  .dot-tobacco {
+    background-color: #915249;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    z-index: 30;
+  }
+
+  .dot-oak {
+    background-color: #592d22;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    z-index: 30;
+  }
+
+  .dot-black {
+    background-color: black;
+    border: 1px solid gray;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    z-index: 30;
+  }
+
+  .dot-chocolate {
+    background-color: #56454d;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    z-index: 30;
+  }
+
+  .dot-white {
+    background-color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    z-index: 30;
+  }
+
+  .dot-natural {
+    background-color: #fff0c9;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    z-index: 30;
+  }
+
+  .dot-grey {
+    background-color: #999999;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    z-index: 30;
+  }
+
+  .dot-red {
+    background-color: #e94543;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    z-index: 30;
+  }
+
+  .dot-pink {
+    background-color: #da80dc;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    z-index: 30;
+  }
+
+  .dot-yellow {
+    background-color: #f1e617;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    z-index: 30;
+  }
+
+  .dot-green {
+    background-color: #919e6a;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    z-index: 30;
+  }
+
+  .dot-blue {
+    background-color: #0158c7;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    z-index: 30;
+  }
+
+  .dot-disabled {
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 55px;
+    height: 55px;
+    z-index: 50;
+    position: absolute;
+    transform: translate(0%, -35%);
+    border-radius: 50%;
+  }
+
+  .dot-overlay-leather {
+    border-radius: 50%;
+    background-color: transparent;
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    transform: translate(0%, -40%);
+    box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.5),
+      0 0 20px 10px rgba(255, 255, 255, 0.3),
+      0 0 30px 15px rgba(255, 255, 255, 0.1);
+    opacity: 0;
+    transition: opacity 0.8s ease;
+  }
+
+  .dot-overlay-stitch {
+    border-radius: 50%;
+    background-color: transparent;
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    transform: translate(0%, -40%);
+    box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.5),
+      0 0 20px 10px rgba(255, 255, 255, 0.3),
+      0 0 30px 15px rgba(255, 255, 255, 0.1);
+    opacity: 1;
+    transition: opacity 0.3s ease;
+  }
+
+  .dot-overlay-pip {
+    border-radius: 50%;
+    background-color: transparent;
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    transform: translate(0%, -40%);
+    box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.5),
+      0 0 20px 10px rgba(255, 255, 255, 0.3),
+      0 0 30px 15px rgba(255, 255, 255, 0.1);
+    opacity: 1;
+    transition: opacity 0.3s ease;
+  }
+
+  .dot-overlay-keeper {
+    border-radius: 50%;
+    background-color: transparent;
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    transform: translate(0%, -40%);
+    box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.5),
+      0 0 20px 10px rgba(255, 255, 255, 0.3),
+      0 0 30px 15px rgba(255, 255, 255, 0.1);
+    opacity: 1;
+    transition: opacity 0.3s ease;
+  }
+
+  .dot-overlay-facefront {
+    border-radius: 50%;
+    background-color: transparent;
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    transform: translate(0%, -40%);
+    box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.5),
+      0 0 20px 10px rgba(255, 255, 255, 0.3),
+      0 0 30px 15px rgba(255, 255, 255, 0.1);
+    opacity: 1;
+    transition: opacity 0.3s ease;
+  }
+
+  .dot-overlay-faceback {
+    border-radius: 50%;
+    background-color: transparent;
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    transform: translate(0%, -40%);
+    box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.5),
+      0 0 20px 10px rgba(255, 255, 255, 0.3),
+      0 0 30px 15px rgba(255, 255, 255, 0.1);
+    opacity: 1;
+    transition: opacity 0.3s ease;
   }
 }
 
@@ -2089,7 +2644,7 @@ a:hover.back-to-top {
     width: 93.1%;
     height: auto;
     position: absolute;
-    transform: translate(-100%, -0.6%);
+    transform: translate(-99.8%, -0.3%);
   }
 
   .customize-pip {
@@ -2097,7 +2652,7 @@ a:hover.back-to-top {
     width: 93.1%;
     height: auto;
     position: absolute;
-    transform: translate(-100%, -0.6%);
+    transform: translate(-99.8%, -0.3%);
   }
 
   .customize-keeper {
@@ -2105,7 +2660,7 @@ a:hover.back-to-top {
     width: 93.1%;
     height: auto;
     position: absolute;
-    transform: translate(-100%, -0.6%);
+    transform: translate(-99.8%, -0.3%);
   }
 
   .customize-facefront {
@@ -2113,7 +2668,7 @@ a:hover.back-to-top {
     width: 93.1%;
     height: auto;
     position: absolute;
-    transform: translate(-100%, -0.6%);
+    transform: translate(-99.8%, -0.3%);
   }
 
   .customize-faceback {
@@ -2121,7 +2676,7 @@ a:hover.back-to-top {
     width: 93.1%;
     height: auto;
     position: absolute;
-    transform: translate(-100%, -0.6%);
+    transform: translate(-99.8%, -0.3%);
   }
 
   .radio-leather label {
@@ -2180,7 +2735,7 @@ a:hover.back-to-top {
     z-index: 30;
   }
 
-  .dot-tabacco {
+  .dot-tobacco {
     background-color: #915249;
     width: 30px;
     height: 30px;
@@ -2277,13 +2832,23 @@ a:hover.back-to-top {
     z-index: 30;
   }
 
+  .dot-disabled {
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 35px;
+    height: 35px;
+    z-index: 50;
+    position: absolute;
+    transform: translate(0%, -50%);
+    border-radius: 50%;
+  }
+
   .dot-overlay-leather {
     border-radius: 50%;
     background-color: transparent;
     width: 25px;
     height: 25px;
     position: absolute;
-    transform: translate(0%, -63%);
+    transform: translate(0%, -60%);
     box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.5),
       0 0 20px 10px rgba(255, 255, 255, 0.3),
       0 0 30px 15px rgba(255, 255, 255, 0.1);
@@ -2297,7 +2862,7 @@ a:hover.back-to-top {
     width: 25px;
     height: 25px;
     position: absolute;
-    transform: translate(0%, -63%);
+    transform: translate(0%, -60%);
     box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.5),
       0 0 20px 10px rgba(255, 255, 255, 0.3),
       0 0 30px 15px rgba(255, 255, 255, 0.1);
@@ -2311,7 +2876,7 @@ a:hover.back-to-top {
     width: 25px;
     height: 25px;
     position: absolute;
-    transform: translate(0%, -63%);
+    transform: translate(0%, -60%);
     box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.5),
       0 0 20px 10px rgba(255, 255, 255, 0.3),
       0 0 30px 15px rgba(255, 255, 255, 0.1);
@@ -2325,7 +2890,7 @@ a:hover.back-to-top {
     width: 25px;
     height: 25px;
     position: absolute;
-    transform: translate(0%, -63%);
+    transform: translate(0%, -60%);
     box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.5),
       0 0 20px 10px rgba(255, 255, 255, 0.3),
       0 0 30px 15px rgba(255, 255, 255, 0.1);
@@ -2339,7 +2904,7 @@ a:hover.back-to-top {
     width: 25px;
     height: 25px;
     position: absolute;
-    transform: translate(0%, -63%);
+    transform: translate(0%, -60%);
     box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.5),
       0 0 20px 10px rgba(255, 255, 255, 0.3),
       0 0 30px 15px rgba(255, 255, 255, 0.1);
@@ -2353,7 +2918,7 @@ a:hover.back-to-top {
     width: 25px;
     height: 25px;
     position: absolute;
-    transform: translate(0%, -63%);
+    transform: translate(0%, -60%);
     box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.5),
       0 0 20px 10px rgba(255, 255, 255, 0.3),
       0 0 30px 15px rgba(255, 255, 255, 0.1);
@@ -2469,7 +3034,7 @@ a:hover.back-to-top {
     z-index: 30;
   }
 
-  .dot-tabacco {
+  .dot-tobacco {
     background-color: #915249;
     width: 30px;
     height: 30px;
@@ -2564,6 +3129,16 @@ a:hover.back-to-top {
     height: 30px;
     border-radius: 30px;
     z-index: 30;
+  }
+
+  .dot-disabled {
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 45px;
+    height: 45px;
+    z-index: 50;
+    position: absolute;
+    transform: translate(0%, -59%);
+    border-radius: 50%;
   }
 
   .dot-overlay-leather {
@@ -2758,7 +3333,7 @@ a:hover.back-to-top {
     z-index: 30;
   }
 
-  .dot-tabacco {
+  .dot-tobacco {
     background-color: #915249;
     width: 30px;
     height: 30px;
@@ -2853,6 +3428,16 @@ a:hover.back-to-top {
     height: 30px;
     border-radius: 30px;
     z-index: 30;
+  }
+
+  .dot-disabled {
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 55px;
+    height: 55px;
+    z-index: 50;
+    position: absolute;
+    transform: translate(0%, -59%);
+    border-radius: 50%;
   }
 
   .dot-overlay-leather {

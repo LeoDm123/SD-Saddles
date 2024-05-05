@@ -13,8 +13,8 @@ function selectFacingFront(color) {
     case `oak`:
       newSrc = `images/saddles/${currentPageName}/FacingFront/${currentPageName}-FacingFront-Oak.png`;
       break;
-    case `tabacco`:
-      newSrc = `images/saddles/${currentPageName}/FacingFront/${currentPageName}-FacingFront-Tabacco.png`;
+    case `tobacco`:
+      newSrc = `images/saddles/${currentPageName}/FacingFront/${currentPageName}-FacingFront-Tobacco.png`;
       break;
     case `cognac`:
       newSrc = `images/saddles/${currentPageName}/FacingFront/${currentPageName}-FacingFront-Cognac.png`;

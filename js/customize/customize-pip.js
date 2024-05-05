@@ -13,8 +13,8 @@ function selectPip(color) {
     case `oak`:
       newSrc = `images/saddles/${currentPageName}/Piping/${currentPageName}-Piping-Oak.png`;
       break;
-    case `tabacco`:
-      newSrc = `images/saddles/${currentPageName}/Piping/${currentPageName}-Piping-Tabacco.png`;
+    case `tobacco`:
+      newSrc = `images/saddles/${currentPageName}/Piping/${currentPageName}-Piping-Tobacco.png`;
       break;
     case `cognac`:
       newSrc = `images/saddles/${currentPageName}/Piping/${currentPageName}-Piping-Cognac.png`;

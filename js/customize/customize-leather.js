@@ -13,8 +13,8 @@ function selectLeather(color) {
     case `oak`:
       newSrc = `images/saddles/${currentPageName}/${currentPageName}-Leather-Oak.png`;
       break;
-    case `tabacco`:
-      newSrc = `images/saddles/${currentPageName}/${currentPageName}-Leather-Tabacco.png`;
+    case `tobacco`:
+      newSrc = `images/saddles/${currentPageName}/${currentPageName}-Leather-Tobacco.png`;
       break;
     case `cognac`:
       newSrc = `images/saddles/${currentPageName}/${currentPageName}-Leather-Cognac.png`;

@@ -13,8 +13,8 @@ function selectStitch(color) {
     case `oak`:
       newSrc = `images/saddles/${currentPageName}/Stitching/${currentPageName}-Stitching-Oak.png`;
       break;
-    case `tabacco`:
-      newSrc = `images/saddles/${currentPageName}/Stitching/${currentPageName}-Stitching-Tabacco.png`;
+    case `tobacco`:
+      newSrc = `images/saddles/${currentPageName}/Stitching/${currentPageName}-Stitching-Tobacco.png`;
       break;
     case `cognac`:
       newSrc = `images/saddles/${currentPageName}/Stitching/${currentPageName}-Stitching-Cognac.png`;

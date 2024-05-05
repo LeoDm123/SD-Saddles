@@ -2,7 +2,7 @@ export const productInfo = [
   {
     name: "ALISSA",
     image: {
-      src: "/images/saddles/Alissa/Alissa-Black.png",
+      src: "/images/saddles/Alissa/Alissa-Leather-Black.png",
       alt: "Alissa Black Saddle",
     },
     category: "Dressage",
@@ -11,7 +11,7 @@ export const productInfo = [
   {
     name: "ARTHUR",
     image: {
-      src: "/images/saddles/Arthur/Arthur-Black.png",
+      src: "/images/saddles/Arthur/Arthur-Leather-Black.png",
       alt: "Arthur Black Saddle",
     },
     category: "Dressage",
@@ -38,19 +38,64 @@ export const productInfo = [
   {
     name: "LAVENDER",
     image: {
-      src: "/images/saddles/Lavender/Lavender-Black.png",
-      alt: "Lavender Black Saddle",
-    },
-    category: "Eventing",
-    link: "custom-lavender.html",
-  },
-  {
-    name: "LAVENDER",
-    image: {
-      src: "/images/saddles/Lavender/Lavender-Black.png",
+      src: "/images/saddles/Lavender/Lavender-Leather-Black.png",
       alt: "Lavender Black Saddle",
     },
     category: "Dressage",
-    link: "custom-loire.html",
+    link: "custom-lavender.html",
+  },
+  {
+    name: "LEOPOLD",
+    image: {
+      src: "/images/saddles/Leopold/Leopold-Leather-Black.png",
+      alt: "Leopold Black Saddle",
+    },
+    category: "Dressage",
+    link: "custom-leopold.html",
+  },
+  {
+    name: "MALMO",
+    image: {
+      src: "/images/saddles/Malmo/Malmo-Leather-Black.png",
+      alt: "Malmo Black Saddle",
+    },
+    category: "Dressage",
+    link: "custom-malmo.html",
+  },
+  {
+    name: "OPTIMA LIVE",
+    image: {
+      src: "/images/saddles/OptimaLive/OptimaLive-Leather-Black.png",
+      alt: "Optima Live Black Saddle",
+    },
+    category: "Dressage",
+    link: "custom-optimaLive.html",
+  },
+  {
+    name: "OPTIMA THOR",
+    image: {
+      src: "/images/saddles/OptimaThor/OptimaThor-Leather-Black.png",
+      alt: "Optima Thor Black Saddle",
+    },
+    category: "Dressage",
+    link: "custom-optimaThor.html",
+  },
+  {
+    name: "PETRUS",
+    image: {
+      src: "/images/saddles/Petrus/Petrus-Leather-Black.png",
+      alt: "Petrus Black Saddle",
+    },
+    category: "Dressage",
+    link: "custom-petrus.html",
+  },
+  {
+    name: "TRAFALGAR",
+    image: {
+      src: "/images/saddles/Trafalgar/Trafalgar-Leather-Black.png",
+      alt: "Trafalgar Black Saddle",
+    },
+    category: "Dressage",
+    link: "custom-trafalgar.html",
   },
 ];

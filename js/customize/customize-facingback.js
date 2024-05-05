@@ -13,8 +13,8 @@ function selectFacingBack(color) {
     case `oak`:
       newSrc = `images/saddles/${currentPageName}/FacingBack/${currentPageName}-FacingBack-Oak.png`;
       break;
-    case `tabacco`:
-      newSrc = `images/saddles/${currentPageName}/FacingBack/${currentPageName}-FacingBack-Tabacco.png`;
+    case `tobacco`:
+      newSrc = `images/saddles/${currentPageName}/FacingBack/${currentPageName}-FacingBack-Tobacco.png`;
       break;
     case `cognac`:
       newSrc = `images/saddles/${currentPageName}/FacingBack/${currentPageName}-FacingBack-Cognac.png`;
