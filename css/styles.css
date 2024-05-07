@@ -1048,7 +1048,7 @@ input[type="checkbox"] {
 }
 
 .dot-disabled {
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(0, 0, 0, 0.7);
   width: 55px;
   height: 55px;
   z-index: 50;
@@ -2236,7 +2236,7 @@ a:hover.back-to-top {
   }
 
   .dot-disabled {
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0.7);
     width: 55px;
     height: 55px;
     z-index: 50;
@@ -2534,7 +2534,7 @@ a:hover.back-to-top {
   }
 
   .dot-disabled {
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0.7);
     width: 55px;
     height: 55px;
     z-index: 50;
@@ -2833,7 +2833,7 @@ a:hover.back-to-top {
   }
 
   .dot-disabled {
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0.7);
     width: 35px;
     height: 35px;
     z-index: 50;
@@ -3132,7 +3132,7 @@ a:hover.back-to-top {
   }
 
   .dot-disabled {
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0.7);
     width: 45px;
     height: 45px;
     z-index: 50;
@@ -3431,7 +3431,7 @@ a:hover.back-to-top {
   }
 
   .dot-disabled {
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0.7);
     width: 55px;
     height: 55px;
     z-index: 50;

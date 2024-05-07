@@ -1,4 +1,5 @@
 export const productInfo = [
+  //DRESSAGE
   {
     name: "ALISSA",
     image: {
@@ -16,24 +17,6 @@ export const productInfo = [
     },
     category: "Dressage",
     link: "custom-arthur.html",
-  },
-  {
-    name: "BAYON",
-    image: {
-      src: "/images/saddles/Bayon/Bayon-Leather-Black.png",
-      alt: "Bayon Leather Black Saddle",
-    },
-    category: "Jumping",
-    link: "custom-bayon.html",
-  },
-  {
-    name: "LOIRE",
-    image: {
-      src: "/images/saddles/Loire/Loire-Leather-Black.png",
-      alt: "Loire Leather Black Saddle",
-    },
-    category: "Jumping",
-    link: "custom-loire.html",
   },
   {
     name: "LAVENDER",
@@ -97,5 +80,33 @@ export const productInfo = [
     },
     category: "Dressage",
     link: "custom-trafalgar.html",
+  },
+  //JUMPING
+  {
+    name: "BAYON",
+    image: {
+      src: "/images/saddles/Bayon/Bayon-Leather-Black.png",
+      alt: "Bayon Leather Black Saddle",
+    },
+    category: "Jumping",
+    link: "custom-bayon.html",
+  },
+  {
+    name: "BOURDEAUX",
+    image: {
+      src: "/images/saddles/Bourdeaux/Bourdeaux-Leather-Black.png",
+      alt: "Bourdeaux Leather Black Saddle",
+    },
+    category: "Jumping",
+    link: "custom-bourdeaux.html",
+  },
+  {
+    name: "LOIRE",
+    image: {
+      src: "/images/saddles/Loire/Loire-Leather-Black.png",
+      alt: "Loire Leather Black Saddle",
+    },
+    category: "Jumping",
+    link: "custom-loire.html",
   },
 ];
