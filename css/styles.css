@@ -1684,8 +1684,13 @@ a:hover.back-to-top {
     justify-content: flex-start;
     align-items: center;
     text-align: center;
-    flex: 0 0 calc(33.3% - 10px);
+    flex: 0 0 calc(10% - 10px);
     margin-bottom: 20px;
+  }
+
+  .cat-img {
+    width: 120px;
+    height: 120px;
   }
 
   /* Header */
@@ -1817,6 +1822,16 @@ a:hover.back-to-top {
     font-weight: 700;
     line-height: 1.5rem;
     font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .cat-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    flex: 0 0 calc(10% - 10px);
+    margin-bottom: 20px;
   }
 
   .navbar .container {
