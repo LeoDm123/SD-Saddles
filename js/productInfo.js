@@ -101,6 +101,51 @@ export const productInfo = [
     link: "custom-bourdeaux.html",
   },
   {
+    name: "CENTAURO",
+    image: {
+      src: "/images/saddles/Centauro/Centauro-Leather-Black.png",
+      alt: "Centauro Leather Black Saddle",
+    },
+    category: "Jumping",
+    link: "custom-centauro.html",
+  },
+  {
+    name: "CHARTES",
+    image: {
+      src: "/images/saddles/Chartes/Chartes-Leather-Black.png",
+      alt: "Chartes Leather Black Saddle",
+    },
+    category: "Jumping",
+    link: "custom-chartes.html",
+  },
+  {
+    name: "CROWN",
+    image: {
+      src: "/images/saddles/Crown/Crown-Leather-Black.png",
+      alt: "Crown Leather Black Saddle",
+    },
+    category: "Jumping",
+    link: "custom-crown.html",
+  },
+  {
+    name: "EVA",
+    image: {
+      src: "/images/saddles/Eva/Eva-Leather-Black.png",
+      alt: "Eva Leather Black Saddle",
+    },
+    category: "Jumping",
+    link: "custom-eva.html",
+  },
+  {
+    name: "FLEUR",
+    image: {
+      src: "/images/saddles/Fleur/Fleur-Leather-Black.png",
+      alt: "Fleur Leather Black Saddle",
+    },
+    category: "Jumping",
+    link: "custom-fleur.html",
+  },
+  {
     name: "LOIRE",
     image: {
       src: "/images/saddles/Loire/Loire-Leather-Black.png",
