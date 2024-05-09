@@ -252,9 +252,13 @@ a:hover {
   text-decoration: none;
 }
 
+.btn-container {
+  width: 60%;
+}
+
 .btn-grad {
   background-image: linear-gradient(to right, #dfbd69 0%, #926f34 100%);
-  padding: 10px 45px;
+  padding: 5% 15%;
   text-align: center;
   text-transform: uppercase;
   transition: 0.5s;
@@ -755,6 +759,12 @@ input[type="checkbox"] {
 /**********************/
 /*     Categories     */
 /**********************/
+
+.cat-group-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
 
 .cat-container {
   display: flex;
@@ -1436,6 +1446,100 @@ a:hover.back-to-top {
 /*************************/
 /*     Media Queries     */
 /*************************/
+/* Min-width 268px */
+@media (min-width: 268px) {
+  .navbar .logo-image img {
+    width: 50px;
+    height: auto;
+  }
+
+  .navbar .logo-text {
+    font-size: 1rem;
+    margin-left: 10px !important;
+    color: #ffffff;
+    font-weight: lighter !important  ;
+    line-height: 0.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .navbar .logo-text-secondary {
+    font-size: 0.75rem;
+    margin-left: 10px !important;
+    margin-top: 10px;
+    color: #ffffff;
+    font-weight: 700;
+    line-height: 0.75rem;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .cat-img {
+    width: 100px;
+    height: 100px;
+  }
+
+  .cat-group-container {
+    display: flex;
+  }
+
+  .cat-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    flex: 0 0 calc(33.3% - 10px);
+    margin-bottom: 20px;
+  }
+}
+/* end of min-width 268px */
+
+/* Min-width 576px */
+@media (min-width: 576px) {
+  .navbar .logo-image img {
+    width: 65px;
+    height: auto;
+  }
+
+  .navbar .logo-text {
+    font-size: 1.5rem;
+    margin-left: 15px !important;
+    color: #ffffff;
+    font-weight: lighter !important  ;
+    line-height: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .navbar .logo-text-secondary {
+    font-size: 1rem;
+    margin-left: 15px !important;
+    margin-top: 10px;
+    color: #ffffff;
+    font-weight: 700;
+    line-height: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .cat-img {
+    width: 125px;
+    height: 125px;
+  }
+
+  .cat-group-container {
+    display: flex;
+  }
+
+  .cat-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    flex: 0 0 calc(33.3% - 10px);
+    margin-bottom: 20px;
+  }
+}
+/* end of min-width 576px */
+
 /* Min-width 768px */
 @media (min-width: 768px) {
   /* Header */
@@ -1457,6 +1561,41 @@ a:hover.back-to-top {
     padding: 1.75rem 2rem 0.875rem 2rem;
   }
   /* end of extra pages */
+  .navbar .logo-image img {
+    width: 80px;
+    height: auto;
+  }
+
+  .navbar .logo-text {
+    margin-left: 20px !important;
+    color: #ffffff;
+    font-weight: lighter !important  ;
+    line-height: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .navbar .logo-text-secondary {
+    margin-left: 20px !important;
+    margin-top: 10px;
+    color: #ffffff;
+    font-weight: 700;
+    line-height: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .cat-img {
+    width: 150px;
+    height: 150px;
+  }
+
+  .cat-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    flex: 0 0 calc(33.3% - 10px);
+    margin-bottom: 20px;
+  }
 }
 /* end of min-width 768px */
 
@@ -1536,7 +1675,18 @@ a:hover.back-to-top {
     margin-right: 0;
     margin-left: 0.25rem;
   }
+
   /* end of navigation */
+
+  .cat-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    flex: 0 0 calc(33.3% - 10px);
+    margin-bottom: 20px;
+  }
 
   /* Header */
   .header {
@@ -1640,7 +1790,35 @@ a:hover.back-to-top {
   }
   /* end of general styles */
 
+  .cat-img {
+    width: 200px;
+    height: 200px;
+  }
+
   /* Navigation */
+
+  .navbar .logo-image img {
+    width: 100px;
+    height: auto;
+  }
+
+  .navbar .logo-text {
+    margin-left: 20px !important;
+    color: #ffffff;
+    font-weight: lighter !important  ;
+    line-height: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .navbar .logo-text-secondary {
+    margin-left: 20px !important;
+    margin-top: 10px;
+    color: #ffffff;
+    font-weight: 700;
+    line-height: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
   .navbar .container {
     max-width: 100%;
   }
