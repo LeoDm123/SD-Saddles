@@ -9,15 +9,40 @@ function scrollFunction() {
   var distanceFromBottom = 1300;
 
   var windowHeight = window.innerHeight;
+  var windowWidth = window.innerWidth;
 
   if (window.pageYOffset > threshold) {
-    fixedDiv.style.position = "fixed";
-    fixedDiv.style.left = "15px";
-    fixedDiv.style.top = "50px";
+    if (windowWidth < 500) {
+      fixedDiv.style.position = "fixed";
+      fixedDiv.style.top = "0";
+      fixedDiv.style.zIndex = "60";
+      fixedDiv.style.margin = "auto";
+      fixedDiv.style.backgroundColor = "black";
+      fixedDiv.style.width = "100%";
 
-    scrollableDiv.style.position = "absolute";
-    scrollableDiv.style.right = "15px";
-    scrollableDiv.style.top = 0;
+      scrollableDiv.style.position = "relative";
+      scrollableDiv.style.right = "0";
+      scrollableDiv.style.top = "400px";
+    } else if (windowWidth < 767) {
+      fixedDiv.style.position = "fixed";
+      fixedDiv.style.top = "0";
+      fixedDiv.style.zIndex = "60";
+      fixedDiv.style.margin = "auto";
+      fixedDiv.style.backgroundColor = "black";
+      fixedDiv.style.width = "100%";
+
+      scrollableDiv.style.position = "relative";
+      scrollableDiv.style.right = "0";
+      scrollableDiv.style.top = "500px";
+    } else {
+      fixedDiv.style.position = "fixed";
+      fixedDiv.style.left = "15px";
+      fixedDiv.style.top = "50px";
+
+      scrollableDiv.style.position = "absolute";
+      scrollableDiv.style.right = "15px";
+      scrollableDiv.style.top = 0;
+    }
 
     var bottomLimit = windowHeight + distanceFromBottom;
 
@@ -30,5 +55,6 @@ function scrollFunction() {
     scrollableDiv.style.position = "relative";
     fixedDiv.style.left = 0;
     scrollableDiv.style.right = 0;
+    scrollableDiv.style.top = 0;
   }
 }
