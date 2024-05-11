@@ -22,7 +22,7 @@ function scrollFunction() {
 
       scrollableDiv.style.position = "relative";
       scrollableDiv.style.right = "0";
-      scrollableDiv.style.top = "400px";
+      scrollableDiv.style.top = "0";
     } else if (windowWidth < 767) {
       fixedDiv.style.position = "fixed";
       fixedDiv.style.top = "0";
@@ -33,7 +33,7 @@ function scrollFunction() {
 
       scrollableDiv.style.position = "relative";
       scrollableDiv.style.right = "0";
-      scrollableDiv.style.top = "500px";
+      scrollableDiv.style.top = "0";
     } else {
       fixedDiv.style.position = "fixed";
       fixedDiv.style.left = "15px";
