@@ -19,7 +19,7 @@ function scrollFunction() {
       fixedDiv.style.margin = "auto";
       fixedDiv.style.backgroundColor = "black";
       fixedDiv.style.width = "100%";
-      var distanceFromBottom = 1400;
+      var distanceFromBottom = 1300;
 
       scrollableDiv.style.position = "relative";
       scrollableDiv.style.right = "0";
@@ -49,8 +49,8 @@ function scrollFunction() {
 
     if (window.pageYOffset > bottomLimit) {
       if (windowWidth < 500) {
-        fixedDiv.style.position = "relative";
-        fixedDiv.style.top = "2250px";
+        fixedDiv.style.position = "absolute";
+        fixedDiv.style.top = "1950px";
       } else {
         fixedDiv.style.position = "relative";
         fixedDiv.style.top = "1850px";
