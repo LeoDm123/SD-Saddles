@@ -5,7 +5,7 @@ window.onscroll = function () {
 function scrollFunction() {
   var fixedDiv = document.getElementById("fixedDiv");
   var scrollableDiv = document.getElementById("scrollableDiv");
-  var threshold = 200;
+  var threshold = 100;
   var distanceFromBottom = 1300;
 
   var windowHeight = window.innerHeight;
