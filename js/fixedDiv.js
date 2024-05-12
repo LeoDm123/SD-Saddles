@@ -19,6 +19,7 @@ function scrollFunction() {
       fixedDiv.style.margin = "auto";
       fixedDiv.style.backgroundColor = "black";
       fixedDiv.style.width = "100%";
+      var distanceFromBottom = 1400;
 
       scrollableDiv.style.position = "relative";
       scrollableDiv.style.right = "0";
@@ -47,8 +48,13 @@ function scrollFunction() {
     var bottomLimit = windowHeight + distanceFromBottom;
 
     if (window.pageYOffset > bottomLimit) {
-      fixedDiv.style.position = "relative";
-      fixedDiv.style.top = "1850px";
+      if (windowWidth < 500) {
+        fixedDiv.style.position = "relative";
+        fixedDiv.style.top = "2250px";
+      } else {
+        fixedDiv.style.position = "relative";
+        fixedDiv.style.top = "1850px";
+      }
     }
   } else {
     fixedDiv.style.position = "relative";

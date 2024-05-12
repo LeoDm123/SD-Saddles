@@ -252,6 +252,12 @@ a:hover {
   text-decoration: none;
 }
 
+.btn-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .btn-container {
   width: 60%;
 }
@@ -2464,6 +2470,10 @@ a:hover.back-to-top {
 /* end of min-width 1200px */
 
 @media (min-width: 1600px) {
+  .window-height {
+    height: 2500px;
+  }
+
   .mw-container {
     padding-left: 150px;
     padding-right: 150px;
