@@ -59,6 +59,8 @@ function scrollFunction() {
   } else {
     fixedDiv.style.position = "relative";
     scrollableDiv.style.position = "relative";
+
+    fixedDiv.style.backgroundColor = "transparent";
     fixedDiv.style.left = 0;
     scrollableDiv.style.right = 0;
     scrollableDiv.style.top = 0;
