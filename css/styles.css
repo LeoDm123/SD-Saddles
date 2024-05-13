@@ -780,6 +780,11 @@ input[type="checkbox"] {
 /*     Categories     */
 /**********************/
 
+.cat-section {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
 .cat-group-container {
   display: flex;
   justify-content: space-around;
