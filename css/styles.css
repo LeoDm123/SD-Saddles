@@ -869,7 +869,7 @@ input[type="checkbox"] {
 
 .filter-row {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
 }
@@ -1757,6 +1757,13 @@ a:hover.back-to-top {
     position: static;
     margin-top: 10px;
     text-align: center;
+  }
+
+  .filter-row {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 
   .customizer-container {
