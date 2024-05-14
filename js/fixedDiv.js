@@ -5,8 +5,8 @@ window.onscroll = function () {
 function scrollFunction() {
   var fixedDiv = document.getElementById("fixedDiv");
   var scrollableDiv = document.getElementById("scrollableDiv");
-  var threshold = 380;
-  var fadeInThreshold = 380;
+  var threshold = 360;
+  var fadeInThreshold = 360;
   var distanceFromBottom = 1300;
 
   var windowHeight = window.innerHeight;
@@ -16,12 +16,12 @@ function scrollFunction() {
     if (windowWidth < 500 || windowWidth < 767) {
       fixedDiv.style.opacity = "0";
     } else {
-      fixedDiv.style.transition = "opacity 1s ease";
+      fixedDiv.style.transition = "opacity 0.5s ease";
       fixedDiv.style.opacity = "0";
     }
 
     if (window.pageYOffset > fadeInThreshold) {
-      fixedDiv.style.transition = "opacity 1s ease";
+      fixedDiv.style.transition = "opacity 0.5s ease";
       fixedDiv.style.opacity = "1";
     }
 
