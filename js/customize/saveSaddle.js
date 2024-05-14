@@ -1,6 +1,10 @@
 const requestButton = document.getElementById("requestButton");
 
 requestButton.addEventListener("click", () => {
+  localStorage.removeItem("Saddle");
+
+  const saddleNameElement = document.getElementById("saddleName");
+  const name = saddleNameElement.textContent.trim();
   const size = document.getElementById("size");
   const width = document.getElementById("width");
   const flaps = document.getElementById("flaps");
@@ -51,6 +55,7 @@ requestButton.addEventListener("click", () => {
 
   // Crear el objeto saddleData con los datos del formulario y los colores seleccionados
   const saddleData = {
+    name: name,
     size: size.value,
     width: width.value,
     flaps: flaps.value,
@@ -76,6 +81,7 @@ requestButton.addEventListener("click", () => {
   });
 
   // Limpiar los campos del formulario
+  name.value = "";
   size.value = "";
   width.value = "";
   flaps.value = "";

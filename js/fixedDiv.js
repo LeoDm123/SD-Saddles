@@ -25,7 +25,7 @@ function scrollFunction() {
       fixedDiv.style.opacity = "1";
     }
 
-    if (windowWidth < 500 || windowWidth < 767) {
+    if (windowWidth < 500) {
       fixedDiv.style.position = "fixed";
       fixedDiv.style.top = "0";
       fixedDiv.style.zIndex = "60";
@@ -33,6 +33,17 @@ function scrollFunction() {
       fixedDiv.style.backgroundColor = "black";
       fixedDiv.style.width = "100%";
       var distanceFromBottom = 1300;
+
+      scrollableDiv.style.position = "relative";
+      scrollableDiv.style.right = "0";
+      scrollableDiv.style.top = "0";
+    } else if (windowWidth < 767) {
+      fixedDiv.style.position = "fixed";
+      fixedDiv.style.top = "0";
+      fixedDiv.style.zIndex = "60";
+      fixedDiv.style.margin = "auto";
+      fixedDiv.style.backgroundColor = "black";
+      fixedDiv.style.width = "100%";
 
       scrollableDiv.style.position = "relative";
       scrollableDiv.style.right = "0";

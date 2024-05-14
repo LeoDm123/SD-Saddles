@@ -1751,319 +1751,7 @@ a:hover.back-to-top {
     font-size: 12px;
   }
 }
-/* end of min-width 576px */
-@media (max-width: 767px) {
-  .carousel-indicators {
-    position: static;
-    margin-top: 10px;
-    text-align: center;
-  }
 
-  .filter-row {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .customizer-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .customize-leather {
-    width: 100%;
-    height: auto;
-  }
-
-  .customize-stitch {
-    width: 92.8%;
-    height: auto;
-    position: absolute;
-    transform: translate(-99.8%, -0.3%);
-  }
-
-  .customize-pip {
-    width: 92.8%;
-    height: auto;
-    position: absolute;
-    transform: translate(-99.8%, -0.3%);
-  }
-
-  .customize-keeper {
-    width: 92.8%;
-    height: auto;
-    position: absolute;
-    transform: translate(-99.8%, -0.3%);
-  }
-
-  .customize-facefront {
-    width: 92.8%;
-    height: auto;
-    position: absolute;
-    transform: translate(-99.8%, -0.3%);
-  }
-
-  .customize-faceback {
-    width: 92.8%;
-    height: auto;
-    position: absolute;
-    transform: translate(-99.8%, -0.3%);
-  }
-
-  .radio-leather label {
-    font-size: smaller;
-  }
-
-  .radio-stitch label {
-    font-size: smaller;
-  }
-
-  .radio-pip label {
-    font-size: smaller;
-  }
-
-  .radio-keeper label {
-    font-size: smaller;
-  }
-
-  .radio-facefront label {
-    font-size: smaller;
-  }
-
-  .radio-faceback label {
-    font-size: smaller;
-  }
-
-  .radio-leather {
-    margin-right: 30px;
-  }
-
-  .radio-stitch {
-    margin-right: 30px;
-  }
-
-  .radio-pip {
-    margin-right: 30px;
-  }
-
-  .radio-keeper {
-    margin-right: 30px;
-  }
-
-  .radio-facefront {
-    margin-right: 30px;
-  }
-
-  .radio-faceback {
-    margin-right: 30px;
-  }
-
-  .dot-cognac {
-    background-color: #61302b;
-    width: 30px;
-    height: 30px;
-    border-radius: 30px;
-    z-index: 30;
-  }
-
-  .dot-tobacco {
-    background-color: #915249;
-    width: 30px;
-    height: 30px;
-    border-radius: 30px;
-    z-index: 30;
-  }
-
-  .dot-oak {
-    background-color: #592d22;
-    width: 30px;
-    height: 30px;
-    border-radius: 30px;
-    z-index: 30;
-  }
-
-  .dot-black {
-    background-color: black;
-    border: 1px solid gray;
-    width: 30px;
-    height: 30px;
-    border-radius: 30px;
-    z-index: 30;
-  }
-
-  .dot-chocolate {
-    background-color: #56454d;
-    width: 30px;
-    height: 30px;
-    border-radius: 30px;
-    z-index: 30;
-  }
-
-  .dot-white {
-    background-color: white;
-    width: 30px;
-    height: 30px;
-    border-radius: 30px;
-    z-index: 30;
-  }
-
-  .dot-natural {
-    background-color: #fff0c9;
-    width: 30px;
-    height: 30px;
-    border-radius: 30px;
-    z-index: 30;
-  }
-
-  .dot-grey {
-    background-color: #999999;
-    width: 30px;
-    height: 30px;
-    border-radius: 30px;
-    z-index: 30;
-  }
-
-  .dot-red {
-    background-color: #e94543;
-    width: 30px;
-    height: 30px;
-    border-radius: 30px;
-    z-index: 30;
-  }
-
-  .dot-pink {
-    background-color: #da80dc;
-    width: 30px;
-    height: 30px;
-    border-radius: 30px;
-    z-index: 30;
-  }
-
-  .dot-yellow {
-    background-color: #f1e617;
-    width: 30px;
-    height: 30px;
-    border-radius: 30px;
-    z-index: 30;
-  }
-
-  .dot-green {
-    background-color: #919e6a;
-    width: 30px;
-    height: 30px;
-    border-radius: 30px;
-    z-index: 30;
-  }
-
-  .dot-blue {
-    background-color: #0158c7;
-    width: 30px;
-    height: 30px;
-    border-radius: 30px;
-    z-index: 30;
-  }
-
-  .dot-disabled {
-    background-color: rgba(0, 0, 0, 0.7);
-    width: 35px;
-    height: 35px;
-    z-index: 50;
-    position: absolute;
-    transform: translate(0%, -55%);
-    border-radius: 50%;
-  }
-
-  .dot-overlay-leather {
-    border-radius: 50%;
-    background-color: transparent;
-    width: 25px;
-    height: 25px;
-    position: absolute;
-    transform: translate(0%, -63%);
-    box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.5),
-      0 0 20px 10px rgba(255, 255, 255, 0.3),
-      0 0 30px 15px rgba(255, 255, 255, 0.1);
-    opacity: 0;
-    transition: opacity 0.8s ease;
-  }
-
-  .dot-overlay-stitch {
-    border-radius: 50%;
-    background-color: transparent;
-    width: 25px;
-    height: 25px;
-    position: absolute;
-    transform: translate(0%, -63%);
-    box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.5),
-      0 0 20px 10px rgba(255, 255, 255, 0.3),
-      0 0 30px 15px rgba(255, 255, 255, 0.1);
-    opacity: 1;
-    transition: opacity 0.3s ease;
-  }
-
-  .dot-overlay-pip {
-    border-radius: 50%;
-    background-color: transparent;
-    width: 25px;
-    height: 25px;
-    position: absolute;
-    transform: translate(0%, -63%);
-    box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.5),
-      0 0 20px 10px rgba(255, 255, 255, 0.3),
-      0 0 30px 15px rgba(255, 255, 255, 0.1);
-    opacity: 1;
-    transition: opacity 0.3s ease;
-  }
-
-  .dot-overlay-keeper {
-    border-radius: 50%;
-    background-color: transparent;
-    width: 25px;
-    height: 25px;
-    position: absolute;
-    transform: translate(0%, -63%);
-    box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.5),
-      0 0 20px 10px rgba(255, 255, 255, 0.3),
-      0 0 30px 15px rgba(255, 255, 255, 0.1);
-    opacity: 1;
-    transition: opacity 0.3s ease;
-  }
-
-  .dot-overlay-facefront {
-    border-radius: 50%;
-    background-color: transparent;
-    width: 25px;
-    height: 25px;
-    position: absolute;
-    transform: translate(0%, -63%);
-    box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.5),
-      0 0 20px 10px rgba(255, 255, 255, 0.3),
-      0 0 30px 15px rgba(255, 255, 255, 0.1);
-    opacity: 1;
-    transition: opacity 0.3s ease;
-  }
-
-  .dot-overlay-faceback {
-    border-radius: 50%;
-    background-color: transparent;
-    width: 25px;
-    height: 25px;
-    position: absolute;
-    transform: translate(0%, -63%);
-    box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.5),
-      0 0 20px 10px rgba(255, 255, 255, 0.3),
-      0 0 30px 15px rgba(255, 255, 255, 0.1);
-    opacity: 1;
-    transition: opacity 0.3s ease;
-  }
-
-  .window-height {
-    height: 2900px;
-  }
-}
 /* Min-width 768px */
 @media (min-width: 768px) {
   /* Header */
@@ -2106,6 +1794,7 @@ a:hover.back-to-top {
     line-height: 1.5rem;
     font-family: Arial, Helvetica, sans-serif;
   }
+
   .cat-img {
     width: 150px;
     height: 150px;
@@ -2153,11 +1842,11 @@ a:hover.back-to-top {
   }
 
   .description-t p {
-    font-size: 14px !important;
+    font-size: 16px !important;
   }
 
   .description p {
-    font-size: 14px !important;
+    font-size: 16px !important;
     display: -webkit-box;
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 5;
@@ -4344,5 +4033,944 @@ a:hover.back-to-top {
       0 0 30px 15px rgba(255, 255, 255, 0.1);
     opacity: 1;
     transition: opacity 0.3s ease;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+  .carousel-indicators {
+    position: static;
+    margin-top: 10px;
+    text-align: center;
+  }
+
+  .filter-row {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .customizer-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .customize-leather {
+    width: 100%;
+    height: auto;
+  }
+
+  .customize-stitch {
+    width: 92.8%;
+    height: auto;
+    position: absolute;
+    transform: translate(-99.8%, -0.3%);
+  }
+
+  .customize-pip {
+    width: 92.8%;
+    height: auto;
+    position: absolute;
+    transform: translate(-99.8%, -0.3%);
+  }
+
+  .customize-keeper {
+    width: 92.8%;
+    height: auto;
+    position: absolute;
+    transform: translate(-99.8%, -0.3%);
+  }
+
+  .customize-facefront {
+    width: 92.8%;
+    height: auto;
+    position: absolute;
+    transform: translate(-99.8%, -0.3%);
+  }
+
+  .customize-faceback {
+    width: 92.8%;
+    height: auto;
+    position: absolute;
+    transform: translate(-99.8%, -0.3%);
+  }
+
+  .radio-leather label {
+    font-size: smaller;
+  }
+
+  .radio-stitch label {
+    font-size: smaller;
+  }
+
+  .radio-pip label {
+    font-size: smaller;
+  }
+
+  .radio-keeper label {
+    font-size: smaller;
+  }
+
+  .radio-facefront label {
+    font-size: smaller;
+  }
+
+  .radio-faceback label {
+    font-size: smaller;
+  }
+
+  .radio-leather {
+    margin-right: 30px;
+  }
+
+  .radio-stitch {
+    margin-right: 30px;
+  }
+
+  .radio-pip {
+    margin-right: 30px;
+  }
+
+  .radio-keeper {
+    margin-right: 30px;
+  }
+
+  .radio-facefront {
+    margin-right: 30px;
+  }
+
+  .radio-faceback {
+    margin-right: 30px;
+  }
+
+  .dot-cognac {
+    background-color: #61302b;
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    z-index: 30;
+  }
+
+  .dot-tobacco {
+    background-color: #915249;
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    z-index: 30;
+  }
+
+  .dot-oak {
+    background-color: #592d22;
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    z-index: 30;
+  }
+
+  .dot-black {
+    background-color: black;
+    border: 1px solid gray;
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    z-index: 30;
+  }
+
+  .dot-chocolate {
+    background-color: #56454d;
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    z-index: 30;
+  }
+
+  .dot-white {
+    background-color: white;
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    z-index: 30;
+  }
+
+  .dot-natural {
+    background-color: #fff0c9;
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    z-index: 30;
+  }
+
+  .dot-grey {
+    background-color: #999999;
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    z-index: 30;
+  }
+
+  .dot-red {
+    background-color: #e94543;
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    z-index: 30;
+  }
+
+  .dot-pink {
+    background-color: #da80dc;
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    z-index: 30;
+  }
+
+  .dot-yellow {
+    background-color: #f1e617;
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    z-index: 30;
+  }
+
+  .dot-green {
+    background-color: #919e6a;
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    z-index: 30;
+  }
+
+  .dot-blue {
+    background-color: #0158c7;
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    z-index: 30;
+  }
+
+  .dot-disabled {
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 35px;
+    height: 35px;
+    z-index: 50;
+    position: absolute;
+    transform: translate(0%, -55%);
+    border-radius: 50%;
+  }
+
+  .dot-overlay-leather {
+    border-radius: 50%;
+    background-color: transparent;
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    transform: translate(0%, -63%);
+    box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.5),
+      0 0 20px 10px rgba(255, 255, 255, 0.3),
+      0 0 30px 15px rgba(255, 255, 255, 0.1);
+    opacity: 0;
+    transition: opacity 0.8s ease;
+  }
+
+  .dot-overlay-stitch {
+    border-radius: 50%;
+    background-color: transparent;
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    transform: translate(0%, -63%);
+    box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.5),
+      0 0 20px 10px rgba(255, 255, 255, 0.3),
+      0 0 30px 15px rgba(255, 255, 255, 0.1);
+    opacity: 1;
+    transition: opacity 0.3s ease;
+  }
+
+  .dot-overlay-pip {
+    border-radius: 50%;
+    background-color: transparent;
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    transform: translate(0%, -63%);
+    box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.5),
+      0 0 20px 10px rgba(255, 255, 255, 0.3),
+      0 0 30px 15px rgba(255, 255, 255, 0.1);
+    opacity: 1;
+    transition: opacity 0.3s ease;
+  }
+
+  .dot-overlay-keeper {
+    border-radius: 50%;
+    background-color: transparent;
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    transform: translate(0%, -63%);
+    box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.5),
+      0 0 20px 10px rgba(255, 255, 255, 0.3),
+      0 0 30px 15px rgba(255, 255, 255, 0.1);
+    opacity: 1;
+    transition: opacity 0.3s ease;
+  }
+
+  .dot-overlay-facefront {
+    border-radius: 50%;
+    background-color: transparent;
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    transform: translate(0%, -63%);
+    box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.5),
+      0 0 20px 10px rgba(255, 255, 255, 0.3),
+      0 0 30px 15px rgba(255, 255, 255, 0.1);
+    opacity: 1;
+    transition: opacity 0.3s ease;
+  }
+
+  .dot-overlay-faceback {
+    border-radius: 50%;
+    background-color: transparent;
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    transform: translate(0%, -63%);
+    box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.5),
+      0 0 20px 10px rgba(255, 255, 255, 0.3),
+      0 0 30px 15px rgba(255, 255, 255, 0.1);
+    opacity: 1;
+    transition: opacity 0.3s ease;
+  }
+
+  .window-height {
+    height: 2900px;
+  }
+}
+
+@media (min-width: 450px) and (max-width: 575px) {
+  .carousel-indicators {
+    position: static;
+    margin-top: 10px;
+    text-align: center;
+  }
+
+  .filter-row {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .customizer-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .customize-leather {
+    width: 100%;
+    height: auto;
+  }
+
+  .customize-stitch {
+    width: 94.9%;
+    height: auto;
+    position: absolute;
+    transform: translate(-99.8%, -0.3%);
+  }
+
+  .customize-pip {
+    width: 94.9%;
+    height: auto;
+    position: absolute;
+    transform: translate(-99.8%, -0.3%);
+  }
+
+  .customize-keeper {
+    width: 94.9%;
+    height: auto;
+    position: absolute;
+    transform: translate(-99.8%, -0.3%);
+  }
+
+  .customize-facefront {
+    width: 94.9%;
+    height: auto;
+    position: absolute;
+    transform: translate(-99.8%, -0.3%);
+  }
+
+  .customize-faceback {
+    width: 94.9%;
+    height: auto;
+    position: absolute;
+    transform: translate(-99.8%, -0.3%);
+  }
+
+  .radio-leather label {
+    font-size: smaller;
+  }
+
+  .radio-stitch label {
+    font-size: smaller;
+  }
+
+  .radio-pip label {
+    font-size: smaller;
+  }
+
+  .radio-keeper label {
+    font-size: smaller;
+  }
+
+  .radio-facefront label {
+    font-size: smaller;
+  }
+
+  .radio-faceback label {
+    font-size: smaller;
+  }
+
+  .radio-leather {
+    margin-right: 30px;
+  }
+
+  .radio-stitch {
+    margin-right: 30px;
+  }
+
+  .radio-pip {
+    margin-right: 30px;
+  }
+
+  .radio-keeper {
+    margin-right: 30px;
+  }
+
+  .radio-facefront {
+    margin-right: 30px;
+  }
+
+  .radio-faceback {
+    margin-right: 30px;
+  }
+
+  .dot-cognac {
+    background-color: #61302b;
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    z-index: 30;
+  }
+
+  .dot-tobacco {
+    background-color: #915249;
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    z-index: 30;
+  }
+
+  .dot-oak {
+    background-color: #592d22;
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    z-index: 30;
+  }
+
+  .dot-black {
+    background-color: black;
+    border: 1px solid gray;
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    z-index: 30;
+  }
+
+  .dot-chocolate {
+    background-color: #56454d;
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    z-index: 30;
+  }
+
+  .dot-white {
+    background-color: white;
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    z-index: 30;
+  }
+
+  .dot-natural {
+    background-color: #fff0c9;
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    z-index: 30;
+  }
+
+  .dot-grey {
+    background-color: #999999;
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    z-index: 30;
+  }
+
+  .dot-red {
+    background-color: #e94543;
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    z-index: 30;
+  }
+
+  .dot-pink {
+    background-color: #da80dc;
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    z-index: 30;
+  }
+
+  .dot-yellow {
+    background-color: #f1e617;
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    z-index: 30;
+  }
+
+  .dot-green {
+    background-color: #919e6a;
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    z-index: 30;
+  }
+
+  .dot-blue {
+    background-color: #0158c7;
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    z-index: 30;
+  }
+
+  .dot-disabled {
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 35px;
+    height: 35px;
+    z-index: 50;
+    position: absolute;
+    transform: translate(0%, -55%);
+    border-radius: 50%;
+  }
+
+  .dot-overlay-leather {
+    border-radius: 50%;
+    background-color: transparent;
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    transform: translate(0%, -63%);
+    box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.5),
+      0 0 20px 10px rgba(255, 255, 255, 0.3),
+      0 0 30px 15px rgba(255, 255, 255, 0.1);
+    opacity: 0;
+    transition: opacity 0.8s ease;
+  }
+
+  .dot-overlay-stitch {
+    border-radius: 50%;
+    background-color: transparent;
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    transform: translate(0%, -63%);
+    box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.5),
+      0 0 20px 10px rgba(255, 255, 255, 0.3),
+      0 0 30px 15px rgba(255, 255, 255, 0.1);
+    opacity: 1;
+    transition: opacity 0.3s ease;
+  }
+
+  .dot-overlay-pip {
+    border-radius: 50%;
+    background-color: transparent;
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    transform: translate(0%, -63%);
+    box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.5),
+      0 0 20px 10px rgba(255, 255, 255, 0.3),
+      0 0 30px 15px rgba(255, 255, 255, 0.1);
+    opacity: 1;
+    transition: opacity 0.3s ease;
+  }
+
+  .dot-overlay-keeper {
+    border-radius: 50%;
+    background-color: transparent;
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    transform: translate(0%, -63%);
+    box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.5),
+      0 0 20px 10px rgba(255, 255, 255, 0.3),
+      0 0 30px 15px rgba(255, 255, 255, 0.1);
+    opacity: 1;
+    transition: opacity 0.3s ease;
+  }
+
+  .dot-overlay-facefront {
+    border-radius: 50%;
+    background-color: transparent;
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    transform: translate(0%, -63%);
+    box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.5),
+      0 0 20px 10px rgba(255, 255, 255, 0.3),
+      0 0 30px 15px rgba(255, 255, 255, 0.1);
+    opacity: 1;
+    transition: opacity 0.3s ease;
+  }
+
+  .dot-overlay-faceback {
+    border-radius: 50%;
+    background-color: transparent;
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    transform: translate(0%, -63%);
+    box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.5),
+      0 0 20px 10px rgba(255, 255, 255, 0.3),
+      0 0 30px 15px rgba(255, 255, 255, 0.1);
+    opacity: 1;
+    transition: opacity 0.3s ease;
+  }
+
+  .window-height {
+    height: 2900px;
+  }
+}
+
+@media (max-width: 449px) {
+  .carousel-indicators {
+    position: static;
+    margin-top: 10px;
+    text-align: center;
+  }
+
+  .filter-row {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .customizer-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .customize-leather {
+    width: 100%;
+    height: auto;
+  }
+
+  .customize-stitch {
+    width: 92.8%;
+    height: auto;
+    position: absolute;
+    transform: translate(-99.8%, -0.3%);
+  }
+
+  .customize-pip {
+    width: 92.8%;
+    height: auto;
+    position: absolute;
+    transform: translate(-99.8%, -0.3%);
+  }
+
+  .customize-keeper {
+    width: 92.8%;
+    height: auto;
+    position: absolute;
+    transform: translate(-99.8%, -0.3%);
+  }
+
+  .customize-facefront {
+    width: 92.8%;
+    height: auto;
+    position: absolute;
+    transform: translate(-99.8%, -0.3%);
+  }
+
+  .customize-faceback {
+    width: 92.8%;
+    height: auto;
+    position: absolute;
+    transform: translate(-99.8%, -0.3%);
+  }
+
+  .radio-leather label {
+    font-size: smaller;
+  }
+
+  .radio-stitch label {
+    font-size: smaller;
+  }
+
+  .radio-pip label {
+    font-size: smaller;
+  }
+
+  .radio-keeper label {
+    font-size: smaller;
+  }
+
+  .radio-facefront label {
+    font-size: smaller;
+  }
+
+  .radio-faceback label {
+    font-size: smaller;
+  }
+
+  .radio-leather {
+    margin-right: 30px;
+  }
+
+  .radio-stitch {
+    margin-right: 30px;
+  }
+
+  .radio-pip {
+    margin-right: 30px;
+  }
+
+  .radio-keeper {
+    margin-right: 30px;
+  }
+
+  .radio-facefront {
+    margin-right: 30px;
+  }
+
+  .radio-faceback {
+    margin-right: 30px;
+  }
+
+  .dot-cognac {
+    background-color: #61302b;
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    z-index: 30;
+  }
+
+  .dot-tobacco {
+    background-color: #915249;
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    z-index: 30;
+  }
+
+  .dot-oak {
+    background-color: #592d22;
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    z-index: 30;
+  }
+
+  .dot-black {
+    background-color: black;
+    border: 1px solid gray;
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    z-index: 30;
+  }
+
+  .dot-chocolate {
+    background-color: #56454d;
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    z-index: 30;
+  }
+
+  .dot-white {
+    background-color: white;
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    z-index: 30;
+  }
+
+  .dot-natural {
+    background-color: #fff0c9;
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    z-index: 30;
+  }
+
+  .dot-grey {
+    background-color: #999999;
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    z-index: 30;
+  }
+
+  .dot-red {
+    background-color: #e94543;
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    z-index: 30;
+  }
+
+  .dot-pink {
+    background-color: #da80dc;
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    z-index: 30;
+  }
+
+  .dot-yellow {
+    background-color: #f1e617;
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    z-index: 30;
+  }
+
+  .dot-green {
+    background-color: #919e6a;
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    z-index: 30;
+  }
+
+  .dot-blue {
+    background-color: #0158c7;
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    z-index: 30;
+  }
+
+  .dot-disabled {
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 35px;
+    height: 35px;
+    z-index: 50;
+    position: absolute;
+    transform: translate(0%, -55%);
+    border-radius: 50%;
+  }
+
+  .dot-overlay-leather {
+    border-radius: 50%;
+    background-color: transparent;
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    transform: translate(0%, -63%);
+    box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.5),
+      0 0 20px 10px rgba(255, 255, 255, 0.3),
+      0 0 30px 15px rgba(255, 255, 255, 0.1);
+    opacity: 0;
+    transition: opacity 0.8s ease;
+  }
+
+  .dot-overlay-stitch {
+    border-radius: 50%;
+    background-color: transparent;
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    transform: translate(0%, -63%);
+    box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.5),
+      0 0 20px 10px rgba(255, 255, 255, 0.3),
+      0 0 30px 15px rgba(255, 255, 255, 0.1);
+    opacity: 1;
+    transition: opacity 0.3s ease;
+  }
+
+  .dot-overlay-pip {
+    border-radius: 50%;
+    background-color: transparent;
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    transform: translate(0%, -63%);
+    box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.5),
+      0 0 20px 10px rgba(255, 255, 255, 0.3),
+      0 0 30px 15px rgba(255, 255, 255, 0.1);
+    opacity: 1;
+    transition: opacity 0.3s ease;
+  }
+
+  .dot-overlay-keeper {
+    border-radius: 50%;
+    background-color: transparent;
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    transform: translate(0%, -63%);
+    box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.5),
+      0 0 20px 10px rgba(255, 255, 255, 0.3),
+      0 0 30px 15px rgba(255, 255, 255, 0.1);
+    opacity: 1;
+    transition: opacity 0.3s ease;
+  }
+
+  .dot-overlay-facefront {
+    border-radius: 50%;
+    background-color: transparent;
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    transform: translate(0%, -63%);
+    box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.5),
+      0 0 20px 10px rgba(255, 255, 255, 0.3),
+      0 0 30px 15px rgba(255, 255, 255, 0.1);
+    opacity: 1;
+    transition: opacity 0.3s ease;
+  }
+
+  .dot-overlay-faceback {
+    border-radius: 50%;
+    background-color: transparent;
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    transform: translate(0%, -63%);
+    box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.5),
+      0 0 20px 10px rgba(255, 255, 255, 0.3),
+      0 0 30px 15px rgba(255, 255, 255, 0.1);
+    opacity: 1;
+    transition: opacity 0.3s ease;
+  }
+
+  .window-height {
+    height: 2900px;
   }
 }

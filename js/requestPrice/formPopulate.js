@@ -1,9 +1,8 @@
 document.addEventListener("DOMContentLoaded", function () {
-  var requestButton = document.getElementById("requestButton");
+  // Check the flag in local storage
+  var buttonClicked = localStorage.getItem("buttonClicked");
 
-  requestButton.addEventListener("click", function (event) {
-    event.preventDefault();
-
+  if (buttonClicked) {
     var storedInfo = localStorage.getItem("Saddle");
 
     console.log("STORED", storedInfo);
@@ -14,6 +13,11 @@ document.addEventListener("DOMContentLoaded", function () {
 
       // Prepara el mensaje con la información
       var message =
+        "\n" +
+        "I am interested in the " +
+        infoArray[0].name +
+        " saddle with the following characteristics: " +
+        "\n" +
         "Size: " +
         infoArray[0].size +
         "\n" +
@@ -23,7 +27,6 @@ document.addEventListener("DOMContentLoaded", function () {
         "Flaps: " +
         infoArray[0].flaps +
         "\n" +
-        // Añade más campos según sea necesario
         "Block Front: " +
         infoArray[0].blockFront +
         "\n" +
@@ -37,7 +40,18 @@ document.addEventListener("DOMContentLoaded", function () {
         "  Stitch: " +
         infoArray[0].colors.stitch +
         "\n" +
-        // Añade más campos según sea necesario
+        "  Keeper: " +
+        infoArray[0].colors.keeper +
+        "\n" +
+        "  Piping: " +
+        infoArray[0].colors.pip +
+        "\n" +
+        "  Facing Front: " +
+        infoArray[0].colors.facingFront +
+        "\n" +
+        "  Facing Back: " +
+        infoArray[0].colors.facingBack +
+        "\n" +
         "Gullet System: " +
         infoArray[0].gulletSystem +
         "\n" +
@@ -50,14 +64,10 @@ document.addEventListener("DOMContentLoaded", function () {
 
       console.log("MESSAGE", message);
 
-      // Inserta el mensaje en el textarea del formulario
-      document.getElementById("cmessage").value = message;
-
-      // Espera un corto tiempo antes de redirigir
-      setTimeout(function () {
-        // Redirige a /index.html#contact
-        window.location.href = "/index.html#contact";
-      }, 100);
+      document.getElementById("txtmessage").value = message;
     }
-  });
+
+    // Remove the flag from local storage
+    localStorage.removeItem("buttonClicked");
+  }
 });
