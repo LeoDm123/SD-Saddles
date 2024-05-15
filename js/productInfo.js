@@ -154,4 +154,14 @@ export const productInfo = [
     category: "Jumping",
     link: "custom-loire.html",
   },
+  //EVENTING
+  {
+    name: "BARROCA",
+    image: {
+      src: "/images/saddles/Barroca/Barroca-Leather-Black.png",
+      alt: "Barroca Leather Black Saddle",
+    },
+    category: "Eventing",
+    link: "custom-barroca.html",
+  },
 ];
