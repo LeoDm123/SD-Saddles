@@ -64,7 +64,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
       console.log("MESSAGE", message);
 
-      document.getElementById("txtmessage").value = message;
+      document.getElementById("message").value = message;
     }
 
     // Remove the flag from local storage
