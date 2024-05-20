@@ -1756,6 +1756,10 @@ a:hover.back-to-top {
     height: 100px;
   }
 
+  .cat-img:hover {
+    cursor: pointer;
+  }
+
   .product-img {
     width: 80%;
     height: auto;
