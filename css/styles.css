@@ -1450,13 +1450,16 @@ a.back-to-top {
   width: 42px;
   height: 42px;
   border-radius: 30px;
-  background: #3a424d url("../images/up-arrow.png") no-repeat center 47%;
+  background: #3a424d url("../images/icons/up-arrow-white.png") no-repeat center
+    47%;
   background-size: 18px 18px;
   text-indent: -9999px;
 }
 
 a:hover.back-to-top {
-  background-color: #0b36a8;
+  background: #dfbd69 url("../images/icons/up-arrow-black.png") no-repeat center
+    47%;
+  background-size: 18px 18px;
 }
 
 /***********************/
