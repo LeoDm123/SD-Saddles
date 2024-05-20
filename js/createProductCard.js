@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", function () {
         <div class="ml-3 mt-2 text-left">
           <p class="text-center p-small text-white">Category: ${producto.category}</p>
         </div>
-        <img src="${producto.image.src}" class="card-img-top img-bright" alt="${producto.image.alt}">
+        <a href="/${producto.link}"><img src="${producto.image.src}" class="card-img-top img-bright" alt="${producto.image.alt}"></a>
         <div class="card-body text-center">
           <h6 class="h3 text-gold">${producto.name}</h6>
         </div>

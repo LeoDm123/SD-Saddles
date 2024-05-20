@@ -1,127 +1,127 @@
 export const productInfo = [
   //DRESSAGE
   {
-    name: "ALISSA",
+    name: "PARIS",
     image: {
-      src: "/images/saddles/Alissa/Alissa-Leather-Black.png",
-      alt: "Alissa Black Saddle",
+      src: "/images/saddles/Paris/Paris-Leather-Chocolate.png",
+      alt: "Paris Black Saddle",
     },
     category: "Dressage",
-    link: "custom-alissa.html",
+    link: "custom-paris.html",
   },
   {
-    name: "ARTHUR",
+    name: "LYON",
     image: {
-      src: "/images/saddles/Arthur/Arthur-Leather-Black.png",
-      alt: "Arthur Black Saddle",
+      src: "/images/saddles/Lyon/Lyon-Leather-Chocolate.png",
+      alt: "Lyon Black Saddle",
     },
     category: "Dressage",
-    link: "custom-arthur.html",
+    link: "custom-lyon.html",
   },
   {
-    name: "LAVENDER",
+    name: "STRASBURGO",
     image: {
-      src: "/images/saddles/Lavender/Lavender-Leather-Black.png",
-      alt: "Lavender Black Saddle",
+      src: "/images/saddles/Strasburgo/Strasburgo-Leather-Chocolate.png",
+      alt: "Strasburgo Black Saddle",
     },
     category: "Dressage",
-    link: "custom-lavender.html",
+    link: "custom-strasburgo.html",
   },
   {
-    name: "LEOPOLD",
+    name: "BORDEAUX",
     image: {
-      src: "/images/saddles/Leopold/Leopold-Leather-Black.png",
-      alt: "Leopold Black Saddle",
+      src: "/images/saddles/Bordeaux/Bordeaux-Leather-Chocolate.png",
+      alt: "Bordeaux Black Saddle",
     },
     category: "Dressage",
-    link: "custom-leopold.html",
+    link: "custom-bordeaux.html",
   },
   {
     name: "MALMO",
     image: {
-      src: "/images/saddles/Malmo/Malmo-Leather-Black.png",
+      src: "/images/saddles/Malmo/Malmo-Leather-Chocolate.png",
       alt: "Malmo Black Saddle",
     },
     category: "Dressage",
     link: "custom-malmo.html",
   },
   {
-    name: "OPTIMA LIVE",
+    name: "NANTES MAX",
     image: {
-      src: "/images/saddles/OptimaLive/OptimaLive-Leather-Black.png",
-      alt: "Optima Live Black Saddle",
+      src: "/images/saddles/NantesMax/NantesMax-Leather-Chocolate.png",
+      alt: "Nantes Max Black Saddle",
     },
     category: "Dressage",
-    link: "custom-optimaLive.html",
+    link: "custom-nantesMax.html",
   },
   {
-    name: "OPTIMA THOR",
+    name: "DIJON MAX",
     image: {
-      src: "/images/saddles/OptimaThor/OptimaThor-Leather-Black.png",
-      alt: "Optima Thor Black Saddle",
+      src: "/images/saddles/DijonMax/DijonMax-Leather-Chocolate.png",
+      alt: "Dijon Max Black Saddle",
     },
     category: "Dressage",
-    link: "custom-optimaThor.html",
+    link: "custom-dijonMax.html",
   },
   {
-    name: "PETRUS",
+    name: "MONTPELLIER",
     image: {
-      src: "/images/saddles/Petrus/Petrus-Leather-Black.png",
-      alt: "Petrus Black Saddle",
+      src: "/images/saddles/Montpellier/Montpellier-Leather-Chocolate.png",
+      alt: "Montpellier Black Saddle",
     },
     category: "Dressage",
-    link: "custom-petrus.html",
+    link: "custom-montpellier.html",
   },
   {
-    name: "TRAFALGAR",
+    name: "MARSEILLE",
     image: {
-      src: "/images/saddles/Trafalgar/Trafalgar-Leather-Black.png",
-      alt: "Trafalgar Black Saddle",
+      src: "/images/saddles/Marseille/Marseille-Leather-Chocolate.png",
+      alt: "Marseille Black Saddle",
     },
     category: "Dressage",
-    link: "custom-trafalgar.html",
+    link: "custom-marseille.html",
   },
   //JUMPING
   {
-    name: "BAYON",
+    name: "ATENA",
     image: {
-      src: "/images/saddles/Bayon/Bayon-Leather-Black.png",
-      alt: "Bayon Leather Black Saddle",
+      src: "/images/saddles/Atena/Atena-Leather-Chocolate.png",
+      alt: "Atena Leather Black Saddle",
     },
     category: "Jumping",
-    link: "custom-bayon.html",
+    link: "custom-atena.html",
+  },
+  {
+    name: "BOLOGNA",
+    image: {
+      src: "/images/saddles/Bologna/Bologna-Leather-Chocolate.png",
+      alt: "Bologna Leather Black Saddle",
+    },
+    category: "Jumping",
+    link: "custom-bologna.html",
   },
   {
     name: "BOURDEAUX",
     image: {
-      src: "/images/saddles/Bourdeaux/Bourdeaux-Leather-Black.png",
+      src: "/images/saddles/Bourdeaux/Bourdeaux-Leather-Chocolate.png",
       alt: "Bourdeaux Leather Black Saddle",
     },
     category: "Jumping",
     link: "custom-bourdeaux.html",
   },
   {
-    name: "CENTAURO",
+    name: "CILENTO",
     image: {
-      src: "/images/saddles/Centauro/Centauro-Leather-Black.png",
-      alt: "Centauro Leather Black Saddle",
+      src: "/images/saddles/Cilento/Cilento-Leather-Chocolate.png",
+      alt: "Cilento Leather Black Saddle",
     },
     category: "Jumping",
-    link: "custom-centauro.html",
-  },
-  {
-    name: "CHARTES",
-    image: {
-      src: "/images/saddles/Chartes/Chartes-Leather-Black.png",
-      alt: "Chartes Leather Black Saddle",
-    },
-    category: "Jumping",
-    link: "custom-chartes.html",
+    link: "custom-cilento.html",
   },
   {
     name: "CROWN",
     image: {
-      src: "/images/saddles/Crown/Crown-Leather-Black.png",
+      src: "/images/saddles/Crown/Crown-Leather-Chocolate.png",
       alt: "Crown Leather Black Saddle",
     },
     category: "Jumping",
@@ -130,35 +130,98 @@ export const productInfo = [
   {
     name: "EVA",
     image: {
-      src: "/images/saddles/Eva/Eva-Leather-Black.png",
+      src: "/images/saddles/Eva/Eva-Leather-Chocolate.png",
       alt: "Eva Leather Black Saddle",
     },
     category: "Jumping",
     link: "custom-eva.html",
   },
   {
-    name: "FLEUR",
+    name: "FIRENZE",
     image: {
-      src: "/images/saddles/Fleur/Fleur-Leather-Black.png",
-      alt: "Fleur Leather Black Saddle",
+      src: "/images/saddles/Firenze/Firenze-Leather-Chocolate.png",
+      alt: "Firenze Leather Black Saddle",
     },
     category: "Jumping",
-    link: "custom-fleur.html",
+    link: "custom-firenze.html",
   },
   {
-    name: "LOIRE",
+    name: "JUSTIN",
     image: {
-      src: "/images/saddles/Loire/Loire-Leather-Black.png",
-      alt: "Loire Leather Black Saddle",
+      src: "/images/saddles/Justin/Justin-Leather-Chocolate.png",
+      alt: "Justin Leather Black Saddle",
     },
     category: "Jumping",
-    link: "custom-loire.html",
+    link: "custom-justin.html",
+  },
+  {
+    name: "PANORMO",
+    image: {
+      src: "/images/saddles/Panormo/Panormo-Leather-Chocolate.png",
+      alt: "Panormo Leather Black Saddle",
+    },
+    category: "Jumping",
+    link: "custom-panormo.html",
+  },
+  {
+    name: "PERSANO",
+    image: {
+      src: "/images/saddles/Persano/Persano-Leather-Chocolate.png",
+      alt: "Persano Leather Black Saddle",
+    },
+    category: "Jumping",
+    link: "custom-persano.html",
+  },
+  {
+    name: "PERSANO MAX",
+    image: {
+      src: "/images/saddles/PersanoMax/PersanoMax-Leather-Chocolate.png",
+      alt: "Persano Max Leather Black Saddle",
+    },
+    category: "Jumping",
+    link: "custom-persanoMax.html",
+  },
+  {
+    name: "REIMS",
+    image: {
+      src: "/images/saddles/Reims/Reims-Leather-Chocolate.png",
+      alt: "ReimsLeather Black Saddle",
+    },
+    category: "Jumping",
+    link: "custom-reims.html",
+  },
+  {
+    name: "ROMA",
+    image: {
+      src: "/images/saddles/Roma/Roma-Leather-Chocolate.png",
+      alt: "RomaLeather Black Saddle",
+    },
+    category: "Jumping",
+    link: "custom-roma.html",
+  },
+  {
+    name: "TORINO",
+    image: {
+      src: "/images/saddles/Torino/Torino-Leather-Chocolate.png",
+      alt: "Torino Leather Black Saddle",
+    },
+    category: "Jumping",
+    link: "custom-torino.html",
+  },
+  {
+    name: "VERONA MAX",
+    image: {
+      src: "/images/saddles/VeronaMax/VeronaMax-Leather-Chocolate.png",
+      alt: "Verona Max Leather Black Saddle",
+    },
+    category: "Jumping",
+    link: "custom-veronaMax.html",
   },
   //EVENTING
   {
     name: "BARROCA",
     image: {
-      src: "/images/saddles/Barroca/Barroca-Leather-Black.png",
+      src: "/images/saddles/Barroca/Barroca-Leather-Chocolate.png",
       alt: "Barroca Leather Black Saddle",
     },
     category: "Eventing",
