@@ -36,24 +36,24 @@ export const productInfo = [
     category: "Jumping",
     link: "custom-cilento.html",
   },
-  {
-    name: "CROWN",
-    image: {
-      src: "/images/saddles/Crown/Crown-Leather-Chocolate.png",
-      alt: "Crown Leather Black Saddle",
-    },
-    category: "Jumping",
-    link: "custom-crown.html",
-  },
-  {
-    name: "EVA",
-    image: {
-      src: "/images/saddles/Eva/Eva-Leather-Chocolate.png",
-      alt: "Eva Leather Black Saddle",
-    },
-    category: "Jumping",
-    link: "custom-eva.html",
-  },
+  // {
+  //   name: "CROWN",
+  //   image: {
+  //     src: "/images/saddles/Crown/Crown-Leather-Chocolate.png",
+  //     alt: "Crown Leather Black Saddle",
+  //   },
+  //   category: "Jumping",
+  //   link: "custom-crown.html",
+  // },
+  // {
+  //   name: "EVA",
+  //   image: {
+  //     src: "/images/saddles/Eva/Eva-Leather-Chocolate.png",
+  //     alt: "Eva Leather Black Saddle",
+  //   },
+  //   category: "Jumping",
+  //   link: "custom-eva.html",
+  // },
   {
     name: "FIRENZE",
     image: {
@@ -99,15 +99,15 @@ export const productInfo = [
     category: "Jumping",
     link: "custom-persanoMax.html",
   },
-  {
-    name: "REIMS",
-    image: {
-      src: "/images/saddles/Reims/Reims-Leather-Chocolate.png",
-      alt: "ReimsLeather Black Saddle",
-    },
-    category: "Jumping",
-    link: "custom-reims.html",
-  },
+  // {
+  //   name: "REIMS",
+  //   image: {
+  //     src: "/images/saddles/Reims/Reims-Leather-Chocolate.png",
+  //     alt: "ReimsLeather Black Saddle",
+  //   },
+  //   category: "Jumping",
+  //   link: "custom-reims.html",
+  // },
   {
     name: "ROMA",
     image: {
@@ -173,15 +173,15 @@ export const productInfo = [
     category: "Dressage",
     link: "custom-bordeaux.html",
   },
-  {
-    name: "MALMO",
-    image: {
-      src: "/images/saddles/Malmo/Malmo-Leather-Chocolate.png",
-      alt: "Malmo Black Saddle",
-    },
-    category: "Dressage",
-    link: "custom-malmo.html",
-  },
+  // {
+  //   name: "MALMO",
+  //   image: {
+  //     src: "/images/saddles/Malmo/Malmo-Leather-Chocolate.png",
+  //     alt: "Malmo Black Saddle",
+  //   },
+  //   category: "Dressage",
+  //   link: "custom-malmo.html",
+  // },
   {
     name: "NANTES MAX",
     image: {
@@ -249,13 +249,13 @@ export const productInfo = [
     category: "General Purpose",
     link: "custom-cordoba.html",
   },
-  {
-    name: "MENDOZA",
-    image: {
-      src: "/images/saddles/Mendoza/Mendoza-Leather-Chocolate.png",
-      alt: "Mendoza Leather Black Saddle",
-    },
-    category: "General Purpose",
-    link: "custom-mendoza.html",
-  },
+  // {
+  //   name: "MENDOZA",
+  //   image: {
+  //     src: "/images/saddles/Mendoza/Mendoza-Leather-Chocolate.png",
+  //     alt: "Mendoza Leather Black Saddle",
+  //   },
+  //   category: "General Purpose",
+  //   link: "custom-mendoza.html",
+  // },
 ];
