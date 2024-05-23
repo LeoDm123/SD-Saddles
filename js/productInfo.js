@@ -258,4 +258,55 @@ export const productInfo = [
   //   category: "General Purpose",
   //   link: "custom-mendoza.html",
   // },
+
+  //ICELANDIC
+  {
+    name: "PLEVEN",
+    image: {
+      src: "/images/saddles/Pleven/Pleven-Leather-Cognac.png",
+      alt: "Pleven Leather Cognac Saddle",
+    },
+    category: "Icelandic",
+    link: "custom-pleven.html",
+  },
+
+  //LEISURE
+  {
+    name: "BURGAS MAX",
+    image: {
+      src: "/images/saddles/BurgasMax/BurgasMax-Leather-Cognac.png",
+      alt: "Burgas Max Leather Cognac Saddle",
+    },
+    category: "Leisure",
+    link: "custom-burgasMax.html",
+  },
+  {
+    name: "VARNA",
+    image: {
+      src: "/images/saddles/Varna/Varna-Leather-Cognac.png",
+      alt: "Varna Leather Cognac Saddle",
+    },
+    category: "Leisure",
+    link: "custom-varna.html",
+  },
+
+  //PONY
+  {
+    name: "ALBENA",
+    image: {
+      src: "/images/saddles/Albena/Albena-Leather-Cognac.png",
+      alt: "Albena Leather Cognac Saddle",
+    },
+    category: "Pony",
+    link: "custom-albena.html",
+  },
+  {
+    name: "SOFIA",
+    image: {
+      src: "/images/saddles/Sofia/Sofia-Leather-Cognac.png",
+      alt: "Sofia Leather Cognac Saddle",
+    },
+    category: "Pony",
+    link: "custom-sofia.html",
+  },
 ];
