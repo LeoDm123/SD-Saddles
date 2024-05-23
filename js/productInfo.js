@@ -3,7 +3,7 @@ export const productInfo = [
   {
     name: "ATENA",
     image: {
-      src: "/images/saddles/Atena/Atena-Leather-Chocolate.png",
+      src: "/images/saddles/Atena/Atena-Leather-Oak.png",
       alt: "Atena Leather Black Saddle",
     },
     category: "Jumping",
@@ -12,7 +12,7 @@ export const productInfo = [
   {
     name: "BOLOGNA",
     image: {
-      src: "/images/saddles/Bologna/Bologna-Leather-Chocolate.png",
+      src: "/images/saddles/Bologna/Bologna-Leather-Oak.png",
       alt: "Bologna Leather Black Saddle",
     },
     category: "Jumping",
@@ -21,7 +21,7 @@ export const productInfo = [
   {
     name: "BOURDEAUX",
     image: {
-      src: "/images/saddles/Bourdeaux/Bourdeaux-Leather-Chocolate.png",
+      src: "/images/saddles/Bourdeaux/Bourdeaux-Leather-Cognac.png",
       alt: "Bourdeaux Leather Black Saddle",
     },
     category: "Jumping",
@@ -30,7 +30,7 @@ export const productInfo = [
   {
     name: "CILENTO",
     image: {
-      src: "/images/saddles/Cilento/Cilento-Leather-Chocolate.png",
+      src: "/images/saddles/Cilento/Cilento-Leather-Cognac.png",
       alt: "Cilento Leather Black Saddle",
     },
     category: "Jumping",
@@ -39,7 +39,7 @@ export const productInfo = [
   // {
   //   name: "CROWN",
   //   image: {
-  //     src: "/images/saddles/Crown/Crown-Leather-Chocolate.png",
+  //     src: "/images/saddles/Crown/Crown-Leather-Cognac.png",
   //     alt: "Crown Leather Black Saddle",
   //   },
   //   category: "Jumping",
@@ -48,7 +48,7 @@ export const productInfo = [
   // {
   //   name: "EVA",
   //   image: {
-  //     src: "/images/saddles/Eva/Eva-Leather-Chocolate.png",
+  //     src: "/images/saddles/Eva/Eva-Leather-Cognac.png",
   //     alt: "Eva Leather Black Saddle",
   //   },
   //   category: "Jumping",
@@ -57,7 +57,7 @@ export const productInfo = [
   {
     name: "FIRENZE",
     image: {
-      src: "/images/saddles/Firenze/Firenze-Leather-Chocolate.png",
+      src: "/images/saddles/Firenze/Firenze-Leather-Cognac.png",
       alt: "Firenze Leather Black Saddle",
     },
     category: "Jumping",
@@ -66,7 +66,7 @@ export const productInfo = [
   {
     name: "JUSTIN",
     image: {
-      src: "/images/saddles/Justin/Justin-Leather-Chocolate.png",
+      src: "/images/saddles/Justin/Justin-Leather-Oak.png",
       alt: "Justin Leather Black Saddle",
     },
     category: "Jumping",
@@ -75,7 +75,7 @@ export const productInfo = [
   {
     name: "PANORMO",
     image: {
-      src: "/images/saddles/Panormo/Panormo-Leather-Chocolate.png",
+      src: "/images/saddles/Panormo/Panormo-Leather-Cognac.png",
       alt: "Panormo Leather Black Saddle",
     },
     category: "Jumping",
@@ -84,7 +84,7 @@ export const productInfo = [
   {
     name: "PERSANO",
     image: {
-      src: "/images/saddles/Persano/Persano-Leather-Chocolate.png",
+      src: "/images/saddles/Persano/Persano-Leather-Cognac.png",
       alt: "Persano Leather Black Saddle",
     },
     category: "Jumping",
@@ -93,7 +93,7 @@ export const productInfo = [
   {
     name: "PERSANO MAX",
     image: {
-      src: "/images/saddles/PersanoMax/PersanoMax-Leather-Chocolate.png",
+      src: "/images/saddles/PersanoMax/PersanoMax-Leather-Cognac.png",
       alt: "Persano Max Leather Black Saddle",
     },
     category: "Jumping",
@@ -102,7 +102,7 @@ export const productInfo = [
   // {
   //   name: "REIMS",
   //   image: {
-  //     src: "/images/saddles/Reims/Reims-Leather-Chocolate.png",
+  //     src: "/images/saddles/Reims/Reims-Leather-Cognac.png",
   //     alt: "ReimsLeather Black Saddle",
   //   },
   //   category: "Jumping",
@@ -111,7 +111,7 @@ export const productInfo = [
   {
     name: "ROMA",
     image: {
-      src: "/images/saddles/Roma/Roma-Leather-Chocolate.png",
+      src: "/images/saddles/Roma/Roma-Leather-Cognac.png",
       alt: "RomaLeather Black Saddle",
     },
     category: "Jumping",
@@ -120,7 +120,7 @@ export const productInfo = [
   {
     name: "TORINO",
     image: {
-      src: "/images/saddles/Torino/Torino-Leather-Chocolate.png",
+      src: "/images/saddles/Torino/Torino-Leather-Oak.png",
       alt: "Torino Leather Black Saddle",
     },
     category: "Jumping",
@@ -129,7 +129,7 @@ export const productInfo = [
   {
     name: "VERONA MAX",
     image: {
-      src: "/images/saddles/VeronaMax/VeronaMax-Leather-Chocolate.png",
+      src: "/images/saddles/VeronaMax/VeronaMax-Leather-Cognac.png",
       alt: "Verona Max Leather Black Saddle",
     },
     category: "Jumping",
@@ -149,7 +149,7 @@ export const productInfo = [
   {
     name: "LYON",
     image: {
-      src: "/images/saddles/Lyon/Lyon-Leather-Chocolate.png",
+      src: "/images/saddles/Lyon/Lyon-Leather-Black.png",
       alt: "Lyon Black Saddle",
     },
     category: "Dressage",
@@ -176,7 +176,7 @@ export const productInfo = [
   // {
   //   name: "MALMO",
   //   image: {
-  //     src: "/images/saddles/Malmo/Malmo-Leather-Chocolate.png",
+  //     src: "/images/saddles/Malmo/Malmo-Leather-Cognac.png",
   //     alt: "Malmo Black Saddle",
   //   },
   //   category: "Dressage",
@@ -203,7 +203,7 @@ export const productInfo = [
   {
     name: "MONTPELLIER",
     image: {
-      src: "/images/saddles/Montpellier/Montpellier-Leather-Chocolate.png",
+      src: "/images/saddles/Montpellier/Montpellier-Leather-Cognac.png",
       alt: "Montpellier Black Saddle",
     },
     category: "Dressage",
@@ -221,9 +221,9 @@ export const productInfo = [
 
   //EVENTING
   {
-    name: "BARROCA",
+    name: "TUCUMAN",
     image: {
-      src: "/images/saddles/Barroca/Barroca-Leather-Chocolate.png",
+      src: "/images/saddles/Barroca/Barroca-Leather-Cognac.png",
       alt: "Barroca Leather Black Saddle",
     },
     category: "Eventing",
@@ -232,7 +232,7 @@ export const productInfo = [
   {
     name: "ROSARIO",
     image: {
-      src: "/images/saddles/Rosario/Rosario-Leather-Chocolate.png",
+      src: "/images/saddles/Rosario/Rosario-Leather-Oak.png",
       alt: "Rosario Leather Black Saddle",
     },
     category: "Eventing",
@@ -243,7 +243,7 @@ export const productInfo = [
   {
     name: "CORDOBA",
     image: {
-      src: "/images/saddles/Cordoba/Cordoba-Leather-Chocolate.png",
+      src: "/images/saddles/Cordoba/Cordoba-Leather-Cognac.png",
       alt: "Cordoba Leather Black Saddle",
     },
     category: "General Purpose",
@@ -252,7 +252,7 @@ export const productInfo = [
   // {
   //   name: "MENDOZA",
   //   image: {
-  //     src: "/images/saddles/Mendoza/Mendoza-Leather-Chocolate.png",
+  //     src: "/images/saddles/Mendoza/Mendoza-Leather-Cognac.png",
   //     alt: "Mendoza Leather Black Saddle",
   //   },
   //   category: "General Purpose",
