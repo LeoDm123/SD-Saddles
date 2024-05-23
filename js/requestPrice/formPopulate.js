@@ -1,17 +1,13 @@
 document.addEventListener("DOMContentLoaded", function () {
-  // Check the flag in local storage
   var buttonClicked = localStorage.getItem("buttonClicked");
+  var accessorieButtonClicked = localStorage.getItem("accessorieButtonClicked");
 
   if (buttonClicked) {
     var storedInfo = localStorage.getItem("Saddle");
 
-    console.log("STORED", storedInfo);
-
-    // Verifica si hay información en el almacenamiento local
     if (storedInfo) {
       var infoArray = JSON.parse(storedInfo);
 
-      // Prepara el mensaje con la información
       var message =
         "\n" +
         "I am interested in the " +
@@ -62,12 +58,38 @@ document.addEventListener("DOMContentLoaded", function () {
         infoArray[0].panels +
         "\n";
 
-      console.log("MESSAGE", message);
+      document.getElementById("message").value = message;
+    }
+
+    localStorage.removeItem("buttonClicked");
+  } else if (accessorieButtonClicked) {
+    var storedInfo = localStorage.getItem("Accessorie");
+
+    if (storedInfo) {
+      var infoArray = JSON.parse(storedInfo);
+
+      var message =
+        "\n" +
+        "I am interested in the " +
+        infoArray[0].name +
+        " accessorie with the following characteristics: " +
+        "\n" +
+        "Size: " +
+        infoArray[0].size +
+        "\n" +
+        "Width: " +
+        "Colors:\n" +
+        "  Leather: " +
+        infoArray[0].colors.leather +
+        "\n" +
+        "  Stitch: " +
+        infoArray[0].colors.stitch +
+        "\n";
 
       document.getElementById("message").value = message;
     }
 
-    // Remove the flag from local storage
     localStorage.removeItem("buttonClicked");
+    localStorage.removeItem("accessorieButtonClicked");
   }
 });
