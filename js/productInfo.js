@@ -81,7 +81,7 @@ export const productInfo = [
     category: "Jumping",
     link: "custom-panormo.html",
   },
-  {
+  // {
   //   name: "PERSANO",
   //   image: {
   //     src: "/images/saddles/Persano/Persano-Leather-Cognac.png",
