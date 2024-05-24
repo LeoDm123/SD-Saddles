@@ -6,10 +6,10 @@ window.addEventListener("load", function () {
       image.addEventListener("click", function () {
         const category = this.getAttribute("data-category");
         localStorage.setItem("selectedCategory", category);
-        window.location.href = "/products.html";
+        window.location.href = "/saddles.html";
       });
     });
-  } else if (currentPage === "/products.html") {
+  } else if (currentPage === "/saddles.html") {
     const selectedCategory = localStorage.getItem("selectedCategory");
     if (selectedCategory) {
       const filter = document.querySelector(`#${selectedCategory}`);
