@@ -1,58 +1,55 @@
-const requestButton = document.getElementById("accessorieRequestButton");
+document.addEventListener("DOMContentLoaded", function () {
+  var requestButton = document.getElementById("accessorieRequestButton");
 
-requestButton.addEventListener("click", () => {
-  localStorage.removeItem("Accessorie");
+  requestButton.addEventListener("click", function (event) {
+    event.preventDefault();
 
-  const saddleNameElement = document.getElementById("accessorieName");
-  const name = saddleNameElement.textContent.trim();
-  const size = document.getElementById("size");
+    localStorage.removeItem("Accessorie");
 
-  const leatherColor = document.querySelector(".selected.radio-leather").dataset
-    .color;
-  const stitchColor = document.querySelector(".selected.radio-stitch").dataset
-    .color;
+    const saddleNameElement = document.getElementById("accessorieName");
+    const name = saddleNameElement.textContent.trim();
+    const size = document.getElementById("size");
 
-  const colors = {
-    leather: leatherColor,
-    stitch: stitchColor,
-  };
+    const leatherColor = document.querySelector(".selected.radio-leather")
+      .dataset.color;
+    const stitchColor = document.querySelector(".selected.radio-stitch").dataset
+      .color;
 
-  if (!size.checkValidity()) {
-    Swal.fire({
-      icon: "error",
-      title: "Por favor, complete todos los campos",
-      showConfirmButton: false,
-      timer: 1500,
-    });
-    return;
-  }
+    const colors = {
+      leather: leatherColor,
+      stitch: stitchColor,
+    };
 
-  // Crear el objeto saddleData con los datos del formulario y los colores seleccionados
-  const AccessorieData = {
-    name: name,
-    size: size.value,
-    colors: colors,
-  };
+    const defaultValues = {
+      size: "SIZE",
+    };
 
-  let accessorie = JSON.parse(localStorage.getItem("Accessorie")) || [];
+    if (size.value === defaultValues.size || !size.checkValidity()) {
+      Swal.fire({
+        icon: "error",
+        title: "Please, complete all required fields",
+        showConfirmButton: false,
+        timer: 1500,
+      });
+      return;
+    }
 
-  accessorie.push(AccessorieData);
+    const AccessorieData = {
+      name: name,
+      size: size.value,
+      colors: colors,
+    };
 
-  localStorage.setItem("Accessorie", JSON.stringify(accessorie));
+    let accessorie = JSON.parse(localStorage.getItem("Accessorie")) || [];
 
-  Swal.fire({
-    icon: "success",
-    title: "Saddle data saved successfully!",
-    showConfirmButton: false,
-    timer: 1500,
+    accessorie.push(AccessorieData);
+
+    localStorage.setItem("Accessorie", JSON.stringify(accessorie));
+
+    size.value = "";
+
+    localStorage.setItem("accessorieButtonClicked", "true");
+
+    window.location.href = "/index.html#contact";
   });
-
-  // Limpiar los campos del formulario
-  name.value = "";
-  size.value = "";
-
-  // Recargar la página después de un segundo
-  setTimeout(() => {
-    location.reload();
-  }, 1000);
 });
