@@ -82,14 +82,14 @@ export const productInfo = [
     link: "custom-panormo.html",
   },
   {
-    name: "PERSANO",
-    image: {
-      src: "/images/saddles/Persano/Persano-Leather-Cognac.png",
-      alt: "Persano Leather Black Saddle",
-    },
-    category: "Jumping",
-    link: "custom-persano.html",
-  },
+  //   name: "PERSANO",
+  //   image: {
+  //     src: "/images/saddles/Persano/Persano-Leather-Cognac.png",
+  //     alt: "Persano Leather Black Saddle",
+  //   },
+  //   category: "Jumping",
+  //   link: "custom-persano.html",
+  // },
   {
     name: "PERSANO MAX",
     image: {
