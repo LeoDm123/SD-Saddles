@@ -27,15 +27,15 @@ export const productInfo = [
     category: "Jumping",
     link: "custom-bourdeaux.html",
   },
-  {
-    name: "CILENTO",
-    image: {
-      src: "/images/saddles/Cilento/Cilento-Leather-Cognac.png",
-      alt: "Cilento Leather Black Saddle",
-    },
-    category: "Jumping",
-    link: "custom-cilento.html",
-  },
+  // {
+  //   name: "CILENTO",
+  //   image: {
+  //     src: "/images/saddles/Cilento/Cilento-Leather-Cognac.png",
+  //     alt: "Cilento Leather Black Saddle",
+  //   },
+  //   category: "Jumping",
+  //   link: "custom-cilento.html",
+  // },
   // {
   //   name: "CROWN",
   //   image: {
@@ -63,15 +63,15 @@ export const productInfo = [
     category: "Jumping",
     link: "custom-firenze.html",
   },
-  {
-    name: "JUSTIN",
-    image: {
-      src: "/images/saddles/Justin/Justin-Leather-Oak.png",
-      alt: "Justin Leather Black Saddle",
-    },
-    category: "Jumping",
-    link: "custom-justin.html",
-  },
+  // {
+  //   name: "JUSTIN",
+  //   image: {
+  //     src: "/images/saddles/Justin/Justin-Leather-Oak.png",
+  //     alt: "Justin Leather Black Saddle",
+  //   },
+  //   category: "Jumping",
+  //   link: "custom-justin.html",
+  // },
   {
     name: "PANORMO",
     image: {
@@ -291,15 +291,15 @@ export const productInfo = [
   },
 
   //PONY
-  {
-    name: "ALBENA",
-    image: {
-      src: "/images/saddles/Albena/Albena-Leather-Cognac.png",
-      alt: "Albena Leather Cognac Saddle",
-    },
-    category: "Pony",
-    link: "custom-albena.html",
-  },
+  // {
+  //   name: "ALBENA",
+  //   image: {
+  //     src: "/images/saddles/Albena/Albena-Leather-Cognac.png",
+  //     alt: "Albena Leather Cognac Saddle",
+  //   },
+  //   category: "Pony",
+  //   link: "custom-albena.html",
+  // },
   {
     name: "SOFIA",
     image: {
