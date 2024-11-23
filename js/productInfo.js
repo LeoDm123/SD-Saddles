@@ -84,8 +84,8 @@ export const productInfo = [
   {
     name: "PERSANO",
     image: {
-      src: "/images/saddles/Persano/Persano-Leather-Cognac.png",
-      alt: "Persano Leather Black Saddle",
+      src: "/images/icons/categories/JumpingSaddle.png",
+      alt: "Persano Leather Cognac Saddle",
     },
     category: "Jumping",
     link: "custom-persano.html",
